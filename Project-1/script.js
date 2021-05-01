@@ -27,46 +27,54 @@ function showSuccess(input) {
 
 // Function To Check If Email Is Valid
 
-function isValidEmail(email) {
+function checkEmail(input) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(String(email).toLowerCase());
+  if ( re.test(input.value.trim())) {
+      showSuccess(input);
+  } else {
+      showError(input, `Please provide a valid email`)
+  }
+}
+//Function To Check If Required Fields Have Data
+
+function checkRequired(inputArray) {
+    inputArray.forEach(function(input) {
+        if ( input.value === '') {
+     console.log(input.id);
+     showError(input,`${input.id} is required`)
+        } else {
+            showSuccess(input);
+        }
+    });
 }
 
+// Function To Check Length Of Input Field
+
+function checkLength (input,min,max) {
+    if ( input.value.length < min ) {
+        showError(input,`${getFieldId(input) } needs to be at least ${min} characters`);
+    } else if (input.value.length > max) {
+        showError(input,`${getFieldId(input) } needs to be less than ${max} characters`);
+    } else {
+        showSuccess(input);
+    }
+}
+
+// Function To Get The ID Of The Field With Proper Case
+
+function getFieldId(input) {
+    return input.id.charAt(0).toUpperCase()+ input.id.slice();
+}
 
 // Event Listeners
 // Create event listener for submit button
 form.addEventListener('submit', function(e) {
     // Stop page from reloading on submit
     e.preventDefault();
-
-    // Check to see if fields meet required field requirement
-    // Check if username input is empty
-    if(username.value === '') {
-        showError(username, 'Username is required');
-    } else {
-        showSuccess(username);
-    }
-
-    // Check if email input is empty
-    if(email.value === '') {
-        showError(email, 'Email is required');
-    } else if(!isValidEmail(email.value)) {
-    showError(email,'Email Is invalid')
-    } else {
-        showSuccess(email);
-    }
-
-    // Check if password input is empty
-    if(password.value === '') {
-        showError(password, 'Password is required');
-    } else {
-        showSuccess(password);
-    }
-
-    // Check if password2 input is empty
-    if(password2.value === '') {
-        showError(password2, 'Confirm Password is required');
-    } else {
-        showSuccess(password2);
-    }
-});
+     
+    checkRequired( [username.email,password,password2]);
+    checkLength(username,3,10);
+    checkLength(password,6,30);
+    checkEmail(email);
+})
+    
