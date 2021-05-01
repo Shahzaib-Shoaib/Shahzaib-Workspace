@@ -3,7 +3,7 @@ const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
-const password2 = document.getElementById('password2');
+const ConfirmPassword = document.getElementById('ConfirmPassword');
 
 // Function to update class and message for errors
 function showError(input, message) {
@@ -63,10 +63,10 @@ form.addEventListener('submit', function(e) {
         showSuccess(password);
     }
 
-    // Check if password2 input is empty
-    if(password2.value === '') {
-        showError(password2, 'Confirm Password is required');
+    // Check if ConfirmPassword input is empty
+    if(ConfirmPassword.value === '') {
+        showError(ConfirmPassword, 'Confirm Password is required');
     } else {
-        showSuccess(password2);
+        showSuccess(ConfirmPassword);
     }
 });
