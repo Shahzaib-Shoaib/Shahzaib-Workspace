@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    margin: 10;
+    margin: 20;
     text-align: center;
 }
 
@@ -26,7 +26,6 @@ ul {
     padding: 10px;
     overflow: hidden;
   /*  background-color: #333; */
-
   }
 
   li {
@@ -42,6 +41,7 @@ ul {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 12px;
-    
+    font-weight: 500;
+
   }
   
