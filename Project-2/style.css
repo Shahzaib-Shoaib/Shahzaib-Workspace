@@ -5,15 +5,34 @@
 }
 
 body {
-    background-color: #274472;
+    background-color: white;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: black;
     align-items: center;
     justify-content: center;
     height: 100vh;
     font-family: 'Raleway', sans-serif;
     margin: 0;
+}
+/*padding-top
+padding-right
+padding-bottom
+padding-left*/
+h1 {
+    font-size:16px;
+    display: inline-block;
+    padding: 14px 20px 14px 20px;
+    border-radius: 8px ;
+    box-shadow: 0 10px 15px -3px;
+    background-color: #3B82F6;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 8px ;
+    margin-bottom: 8px ;
 }
 
 .movie-container {
@@ -21,7 +40,7 @@ body {
 }
 
 .movie-container select {
-    background-color: white;
+    background-color: #D1D5DB;
     border: 0;
     border-radius: 5px;
     font-size: 16px;
@@ -33,20 +52,24 @@ body {
 }
 
 .seat {
-    background-color: #5885AF;
-    height: 15px;
-    width: 15px;
+    background-color: #7f1d1d;
+    opacity: 1;
+    height: 16px;
+    width: 16px;
     margin: 5px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .seat.selected {
-    background-color: #C3E0E5;
+    background-color: #1e3a8a;
+    opacity: 1;
 }
 
+
 .seat.occupied {
-    background-color: white;
+    background: #111827;
+    opacity: 1;
 }
 
 .seat:nth-of-type(2) {
@@ -68,10 +91,10 @@ body {
 }
 
 .showcase {
-    background-color: rgba(0,0,0,0.1);
+    background-color: #D1D5DB;
     padding: 5px 10px;
     border-radius: 5px;
-    color: #5885AF;
+    color: black;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -93,7 +116,7 @@ body {
 }
 
 .screen {
-    background-color: white;
+    background-color: black;
     height: 70px;
     width: 100%;
     margin: 15px 0;
@@ -111,5 +134,5 @@ p.text {
 }
 
 p.text span {
-    color: #C3E0E5;
+    color: #3B82F6;
 }
