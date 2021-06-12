@@ -24,6 +24,10 @@ body {
         font-size: 1.25rem/* 20px */;
         line-height: 1.75rem/* 28px */;
 }
+.eighth{
+        margin-top: 1.5rem/* 24px */;
+
+}
 }
 
 
@@ -49,6 +53,10 @@ body {
 .fifth{
         display: inline;
 }
+.tenth {
+        display: block;
+
+}
 }
 
 @media (min-width: 1280px) {
@@ -70,7 +78,9 @@ body {
  }
  .secondclass{
         grid-column: span 2 / span 2;
-
+ }
+ .tenth{
+        grid-column: span 3 / span 3;
  }
 }
 
@@ -116,12 +126,48 @@ body {
 .seventh {
         margin-top: 0.5rem/* 8px */;
         color: rgba(75, 85, 99, 1);
+}
+.eighth {
+        margin-top: 1rem/* 16px */;
+        margin-left:calc(0.25rem*calc(1-0));
+        margin-right:calc(0.25rem*0);
+}
+.ninth {
+        display: inline-block;
+        padding: 14px 20px 14px 20px;
+        border-radius: 8px ;
+        box-shadow: 0 10px 15px -3px;
+        background-color: #333;
+        color: white;
+        letter-spacing: 0.05em;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 8px ;
+        margin-bottom: 8px ;    
+        background-color: rgba(15, 169, 230, 1);
+}
+.ninth:hover {
+        background-color: rgba(63, 186, 235, 1);
+}
+.ninth:focus{
+        border-color :  rgba(15, 169, 230, 1);
+}
+.tenth {
+        display: none;
+        position: relative;
+}
+.eleventh {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
 
 }
-
-
-
-
 
 
 
