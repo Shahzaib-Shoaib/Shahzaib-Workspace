@@ -5,12 +5,8 @@ body {
         background-color: rgba(229, 231, 235, 1);
 }
 
-:root {
-        --main-color: 0FA9E6;
-        --second-color: red;
-        --third-color:;
- }
-    
+
+       // 640 px
 @media (min-width: 640px) {
 .secondclass {
         max-width: 36rem/* 576px */;
@@ -34,12 +30,16 @@ body {
 .eighth{
         margin-top: 1.5rem/* 24px */;
 }
+.ninth{
+        font-size: 1rem/* 16px */;
+        line-height: 1.5rem/* 24px */;
+}
 .twelveth {
         max-width: 36rem/* 576px */;
     }
 }
 
-
+         //1024px 
 @media (min-width: 1024px) {
 .firstclass{
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -75,6 +75,7 @@ body {
 }
 }
 
+       //1280px
 @media (min-width: 1280px) {
 .secondclass{
          margin-right: 0px;
@@ -90,7 +91,7 @@ body {
         grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 }
-
+         //1536px
 @media (min-width: 1536px) {
         .firstclass { 
         grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -103,9 +104,10 @@ body {
  }
 }
 
+          //Individuals
+
 .firstclass {
-        background: #f3f4f6;
-        opacity: 1;
+        background-color: rgba(243, 244, 246, 1);      
         display: grid;
 }
 
@@ -117,8 +119,8 @@ body {
 
 }
 .onepic {
-        height:12rem;
-        width:24rem;
+        height:13rem;
+        width:25rem;
 }
 
 .pictwo {
@@ -139,7 +141,7 @@ body {
         display: none;  
 }
 .sixth {
-        color: rgba(15, 169, 230,1);
+        color: rgba(15, 169, 230, 1);
 }
 .seventh {
         margin-top: 0.5rem/* 8px */;
@@ -154,27 +156,34 @@ body {
 .ninth {
          text-decoration:none;
          display: inline-block;
-         padding: 14px 20px 14px 20px;
+         padding: 12px 20px 12px 20px;
          border-radius: 8px ;
          box-shadow: 0 10px 15px -3px;
-         background-color: #333;
          color: white;
          letter-spacing: 0.05em;
          font-weight: 600;
          text-align: center;
          margin-top: 8px ;
          margin-bottom: 8px ;    
-         background-color: 0FA9E6;
+         background-color: rgba(15, 169, 230, 1);
          text-transform:uppercase;
+         font-size: 0.875rem/* 14px */;
+         line-height: 1.25rem/* 20px */;
 }
 .ninth:hover {
         background-color: rgba(63, 186, 235, 1);
         text-decoration:none;
-
 }
+.ninth:active {
+        background-color: rgba(12, 135, 184, 1);
+}
+
+
 .ninth:focus{
         border-color :  rgba(15, 169, 230, 1);
         text-decoration:none;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
 
 }
 .tenth {
@@ -214,8 +223,8 @@ body {
         margin-top: 1.5rem/* 24px */;
         display: grid;
         gap: 1.5rem/* 24px */;
-
 }
+           //App.jsx Finished
 .sixteenth {
         display: flex;
         align-items: center;
@@ -252,6 +261,9 @@ body {
         font-weight: 600;
         font-size: 0.875rem/* 14px */;
         line-height: 1.25rem/* 20px */;
+}
+.twentyone:hover {
+        color: rgba(15, 169, 230, 1);
 }
 
 
