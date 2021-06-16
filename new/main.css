@@ -107,16 +107,18 @@ body {
           //Individuals
 
 .firstclass {
-        background-color: rgba(243, 244, 246, 1);      
-        display: grid;
+       background-color: #e5e7eb;      
+       display: grid;
 }
 
 .secondclass {
-        padding:48px 32px 48px 32px;
+        padding-left: 2rem/* 32px */;
+        padding-right: 2rem/* 32px */;
+        padding-top: 3rem/* 48px */;
+        padding-bottom: 3rem/* 48px */;
         max-width:  448px ;
         margin-left: auto;
         margin-right: auto;
-background-color:white;
 }
 .onepic {
         height:13rem;
@@ -213,6 +215,7 @@ background-color:white;
         font-size: 1.25rem/* 20px */;
         line-height: 1.75rem/* 28px */;
         color: rgba(17, 24, 39, 1);
+        font-weight:inherit;
 }
 .fourteenth {
         margin-top: 0.5rem/* 8px */;
