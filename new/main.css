@@ -263,6 +263,7 @@ body {
         font-weight: 600;
         font-size: 0.875rem/* 14px */;
         line-height: 1.25rem/* 20px */;
+        text-decoration:none;
 }
 .twentyone:hover {
         color: rgba(15, 169, 230, 1);
