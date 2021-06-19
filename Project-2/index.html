@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Movie Seat Selection</title>
 </head>
 <body>
@@ -107,6 +109,64 @@
     </div>
 
     <p class="text">You have selected <span id="count">0</span> seats for a total price of $<span id="total">0</span>.</p>
+
+    <button class="cta-btn" id="open"> Book Now </button>
+
+     
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Details</h3>
+            </div>
+            <div class="modal-content">
+                <p>Enter Your Details</p>
+                <form id="form" class="form">
+                    <div class="form-control">
+                        <label for="username">Name</label>
+                        <input type="text" id="username" placeholder="Enter Name">
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter email">
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter password">
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="ConfirmPassword">Confirm Password</label>
+                        <input type="password" id="ConfirmPassword" placeholder="Enter password">
+                        <small>Error message</small>
+                    </div>
+                    <button class="cta-btn" id="open-card"> Submit </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div id="card-modal" >
+    <div id='card' class="animated fadeIn">
+        <div id='upper-side'>
+            <i class="fa fa-check"></i>
+            <h3 id='status'> Success </h3> 
+         </div>
+        <div id='lower-side'>
+          <p id='message'>
+            Congratulations, You have selected <span id="count">0</span> seats for a total price of $<span id="total">0</span>..
+          </p>
+          <a href="#" id="contBtn">Continue</a>
+        </div>
+      </div>
+    </div>
+-->
+    </div>
     
     <script src="./script.js"></script>
 </body>

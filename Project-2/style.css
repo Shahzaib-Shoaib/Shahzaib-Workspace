@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+:root {
+    --modal-duration: 1s;
+    --primary-color: #3B82F6;
+    --secondary-color: #3B82F6;
+    --sucess-color: black;
+    --error-color: red;
+  }
 * {
     box-sizing: border-box;
 }
@@ -136,3 +143,205 @@ p.text {
 p.text span {
     color: #3B82F6;
 }
+
+//new
+button {
+}
+.cta-btn {
+    padding: 12px 20px 12px 20px;
+    border-radius: 8px ;
+    color: white;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 7px ;
+    margin-bottom: 7px ;    
+    background-color: #3B82F6;
+    text-transform:uppercase;
+    font-size: 16px ;
+    line-height: 20px;
+    border:1px solid #3B82F6;
+}
+}
+
+.container {
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+  }
+  
+  .modal-container {
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+  }
+  
+  .modal-container.show-modal {
+    display: block;
+  }
+  
+  .modal {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: 400px;
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+  }
+  
+  .modal-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+  }
+  
+  .modal-header h3 {
+    margin: 0;
+    /* border-bottom: 1px solid var(--secondary-color); */
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  
+  .close-btn {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    color: white;
+    border:0;
+  }
+  
+  @keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  //form new
+  
+  
+  .form {
+    padding: 30px 40px
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label {
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .form-control input:focus {
+    outline: 0;
+    border-color: white;
+  }
+  
+  .form-control.success input {
+    border-color: var(--sucess-color);
+  }
+  
+  .form-control.error input {
+    border-color: var(--error-color);
+  }
+  
+  .form-control small {
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+  }
+  
+  .form button {
+    cursor: pointer;
+    background-color: #3B82F6;
+    border: 2px solid #3B82F6;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  // card
+
+  #card {
+    position: relative;
+    width: 320px;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #upper-side {
+    padding: 2em;
+    background-color: #3B82F6;
+    display: block;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  #checkmark {
+    font-weight: lighter;
+    fill: #fff;
+    margin: -3.5em auto auto 20px;
+  }
+  #status {
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    margin-top: -.2em;
+    margin-bottom: 0;
+  }
+  #lower-side {
+    padding: 2em 2em 5em 2em;
+    background: #fff;
+    display: block;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  #message {
+    margin-top: -.5em;
+    color: #757575;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+  }
+ 
