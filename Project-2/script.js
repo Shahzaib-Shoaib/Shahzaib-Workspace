@@ -8,7 +8,7 @@ const movieSelect = document.getElementById('movie');
 const close = document.getElementById('close');
 const open = document.getElementById('open');
 const modal = document.getElementById('modal');
-const submit = document.getElementById('open-card');
+const openCard = document.getElementById('open-card');
 
 
 
@@ -178,3 +178,15 @@ form.addEventListener('submit',function(e) {
 
 })
 
+
+//new
+// 2. Listen for click on open button
+openCard.addEventListener('click', () => card.classList.add('show-card') );
+
+// 3. Listen for click on close button
+close.addEventListener('click', () => card.classList.remove('show-card') );
+
+// 4. Listen for click outside of modal
+window.addEventListener('click', e => 
+    e.target === modal ? modal.classList.remove('show-card') : false
+)
