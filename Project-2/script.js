@@ -184,7 +184,7 @@ form.addEventListener('submit',function(e) {
 openCard.addEventListener('click', () => card.classList.add('show-card') );
 
 // 3. Listen for click on close button
-close.addEventListener('click', () => card.classList.remove('show-card') );
+close-card.addEventListener('click', () => card.classList.remove('show-card') );
 
 // 4. Listen for click outside of modal
 window.addEventListener('click', e => 
