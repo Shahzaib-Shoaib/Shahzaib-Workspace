@@ -97,7 +97,7 @@ close.addEventListener('click', () => modal.classList.remove('show-modal') );
 window.addEventListener('click', e => 
     e.target === modal ? modal.classList.remove('show-modal') : false
 )
-/*
+
 // Verification
 
 const form = document.getElementById('form');
@@ -177,7 +177,7 @@ form.addEventListener('submit',function(e) {
     checkPasswordsMatch(password,ConfirmPassword);
 
 })
-*/
+
 
 //new
 // 2. Listen for click on open button
