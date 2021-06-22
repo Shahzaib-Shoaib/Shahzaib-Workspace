@@ -5,7 +5,7 @@ body {
         background-color: rgba(229, 231, 235, 1);
 }
 
-
+/*
        // 640 px
 @media (min-width: 640px) {
 .secondclass {
@@ -103,7 +103,7 @@ body {
         grid-column: span 3 / span 3;
  }
 }
-
+*/
           //Individuals
 
 .firstclass {
@@ -111,7 +111,7 @@ body {
        display: grid;
 }
 
-.secondclass {
+//.secondclass {
         padding-left: 32px;
         padding-right: 32px;
         padding-top: 48px ;

@@ -179,7 +179,7 @@ form.addEventListener('submit',function(e) {
 })
 
 
-//new
+//new card
 // 2. Listen for click on open button
 openCard.addEventListener('click', () => card.classList.add('show-card') );
 
