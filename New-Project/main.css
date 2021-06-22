@@ -28,7 +28,7 @@ body {
 
 }
 
-@media (min-width: 640px) {
+@media (max-width: 640px)  {
         .secondclass {
             max-width: 576px;
         }
@@ -232,6 +232,7 @@ body {
 // done before popular movies
 
 .twelveth {
+    //background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
     max-width: 448px;
     margin-left: auto;
     margin-right: auto;
