@@ -70,6 +70,7 @@ footer h3 {
     justify-content: space-between;
     font-weight:500;
     font-size:16px;
+    margin-bottom: 20px;
 
 }
 .last-li a {
@@ -85,5 +86,5 @@ footer h3 {
 
 .copyright-para span {
     margin-left:40px;
-    font-size:14px;
+    font-size:15px;
 }

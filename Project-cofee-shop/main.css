@@ -20,6 +20,9 @@
     line-height: 1.75;
     font-weight: 500;
 }
+.announcements a:hover {
+    text-decoration:none;
+}
 
 .left-right-section {
     display: flex;
@@ -223,6 +226,3 @@ section {
     font-weight: 500;
 }
 
-.copyright-para span {
-    margin-right:10px;
-}
