@@ -1,4 +1,6 @@
 footer {
+    margin-top: 0px;
+
     padding: 24px 0;
     box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
 }
@@ -36,4 +38,52 @@ footer {
 footer h3 {
     font-weight: 400;
     margin-bottom: 24px;
+}
+.end {
+    padding: 34px 0;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+.icons {
+    margin-left: 40px ;
+    margin-bottom:20px;
+}
+.icons i {
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 8px;
+    margin-left:2px;
+    transition: all 0.2s ease;
+
+}
+
+.icons i:hover {
+    padding: 7px 7px;
+}
+
+.last-li ul {
+    list-style-type: none;
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight:500;
+    font-size:16px;
+
+}
+.last-li a {
+    text-decoration:none;
+}
+.last-li a:hover {
+    text-decoration: underline;
+}
+
+.last-li ul li {
+    padding-right: 8px;
+}
+
+.copyright-para span {
+    margin-left:40px;
+    font-size:14px;
 }
