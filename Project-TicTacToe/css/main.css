@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
   }
 
 body {
-  font-family: "Merriweather Sans", sans-serif;
+  //font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .title {
@@ -12,14 +16,16 @@ body {
 }
   
   h1 {
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    //font-family: "Merriweather Sans", sans-serif;
     font-weight: bold;
     font-size: 70px;
     color: #4c6986;
   }
   
   p {
-    font-family: "Merriweather Sans", sans-serif;
+    //font-family: "Merriweather Sans", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: #4c6986;
@@ -67,7 +73,8 @@ body {
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    font-family: "Merriweather Sans", sans-serif;
+    //font-family: "Merriweather Sans", sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 500px;
     height: 500px;
   }
@@ -167,4 +174,5 @@ body {
     .left {
       margin-bottom: 50px;
     }
+    
   }
