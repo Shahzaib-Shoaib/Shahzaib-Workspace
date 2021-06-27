@@ -176,4 +176,8 @@ body {
     }
     
   }
-  
+  @media screen and (max-width: 540px) {
+    .game {
+      width: 350px;
+      height: 350px;    }
+}
