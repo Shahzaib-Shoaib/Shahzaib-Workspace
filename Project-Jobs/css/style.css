@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
-    font-family: "Merriweather Sans", sans-serif;
+    //font-family: "Merriweather Sans", sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     color: white;
     background: #11121A;
@@ -74,7 +77,7 @@ header {
 }
 
 .button-container {
-    background: #3060FF;
+    background: orange; 
     width: 100px; 
     display: flex; 
     justify-content: center;
@@ -84,7 +87,7 @@ header {
 }
 
 .button-container:hover {
-    background: #5a81ff;
+    background: #FFB733;
 }
 
 .jobs-list {
@@ -175,7 +178,7 @@ header {
 
 .apply-now {
     color: white;
-    background: #3060FF;
+    background: orange ; //#3060FF
     margin-right: 15px;
 }
 
