@@ -299,5 +299,25 @@
         "Retrieve data from the database or electronic files as requested"
       ]
     }
+  },
+  {
+    "id": 16,
+    "company": "PanaCloud",
+    "logo": "https://www.piaic.org/static/media/panacloudfootericon.130c4779.png",
+    "roleName": "Freelance Data Entry Associate (Work From Home)",
+    "postedTime": "7d ago",
+    "type": "Part Time",
+    "location": "Pakistan",
+    "website": "https://www.linkedin.com/company/panacloud-pvt-ltd",
+    "applicationLink": "https://www.linkedin.com/company/panacloud-pvt-ltd",
+    "requirements": {
+      "intro": "Anywhere in Pakistan. / Competitive pay / Contract position with potential for future assignments",
+      "content": "Our Mission Is To Empower Visionaries To Transform Their Ideas Into Reality.",
+      "items": [
+        "Compile and sort information to prepare source data",
+        "Review data for deficiencies or errors",
+        "Retrieve data from the database or electronic files as requested"
+      ]
+    }
   }
 ]
