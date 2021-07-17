@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #BDD5EA;
+    background-color: white;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,8 +15,23 @@ body {
     margin: 0;
 }
 
+h1 {
+    display: inline-block;
+    padding: 14px 20px 14px 20px;
+    border-radius: 8px ;
+    box-shadow: 0 10px 15px -3px;
+    background-color: #333;
+    color: white;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 0px ;
+    align-items:center;
+}
+
 .container {
-    background-color: white;
+    background-color: #E1E8EB;
     border-radius: 10px;
     display: flex;
     padding: 20px;
@@ -54,7 +69,7 @@ body {
 }
 
 .nav-btn {
-    background-color: white;
+    background-color: #E1E8EB;
     border: 0;
     color: #495867;
     padding: 10px;
