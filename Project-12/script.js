@@ -20,7 +20,7 @@ let randomWord;
 let score = 0;
 
 // Initialize time
-let time = 1000;
+let time = 10;
 
 // Initialize difficulty
 let difficulty = localStorage.getItem('difficulty') !== null ? localStorage.getItem('difficulty') : 'easy';
@@ -87,7 +87,7 @@ function gameover() {
 // Listen for input in the userWord input element
 userWord.addEventListener('input', e => {
     // Save the value in the input field
-    const userInput = e.target.value;
+    const userInput = e.target.value.toLowerCase();
     // Check to see if userInput matches the randomWord
     if ( userInput === randomWord ) {
         // If the user has typed the correct word, generate a new word
