@@ -10,7 +10,7 @@ const title = document.getElementById('song-title');
 const albumArt = document.getElementById('album-art');
 
 // Track Array
-const tracks = ['Aadat-Instrumental', 'Powfu - Death Bed (Lyrics) ft. beabadoobee'];
+const tracks = ["AADAT INSTRUMENTAL-BHANWARAY feat. Goher Mumtaz  NESCAFÉ Basement Season 5  2019", 'Powfu - Death Bed (Lyrics) ft. beabadoobee'];
 
 // Index of Currently Playing Song
 let trackIndex = 1;

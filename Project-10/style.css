@@ -6,142 +6,6 @@
 }
 
 
-
-
-/*
-body {
-    background-color: white;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-}
-
-h1 {
-    display: inline-block;
-    padding: 14px 20px 14px 20px;
-    border-radius: 8px ;
-    box-shadow: 0 10px 15px -3px;
-    background-color: #333;
-    color: white;
-    letter-spacing: 0.05em;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 20px ;
-    margin-bottom: 0px ;
-    align-items:center;
-}
-
-.container {
-    background-color: #E1E8EB;
-    border-radius: 10px;
-    display: flex;
-    padding: 20px;
-    position: relative;
-    margin: 100px, 0;
-    z-index: 10;
-}
-
-.album-art {
-    position: relative;
-    width: 150px;
-}
-
-.album-art img {
-    border-radius: 50%;
-    object-fit: cover;
-    height: 120px;
-    width: 120px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    animation: rotate 3s linear infinite;
-    animation-play-state: paused;
-}
-
-.container.play img {
-    animation-play-state: running;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-
-.nav-btn {
-    background-color: #E1E8EB;
-    border: 0;
-    color: #495867;
-    padding: 10px;
-    margin: 0 10px;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.nav-btn-large {
-    font-size: 24px;
-}
-
-.info {
-    background-color: #495867;
-    border-radius: 10px;
-    position: absolute;
-    top: 0px;
-    left: 20px;
-    width: calc(100% - 40px);
-    padding: 10px 10px 10px 150px;
-    transform: translateY(0%);
-    transition: transform 1s ease-in, opacity 1s ease-in;
-    opacity: 0;
-    z-index: 0;
-    color: white;
-}
-
-.container.play .info {
-    opacity: 1;
-    transform: translateY(-100%);
-}
-
-.info h4 {
-    margin: 0;
-    text-align: center;
-}
-
-h1 {
-    margin-bottom: 100px;
-}
-
-.progress {
-    background-color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px 0;
-    height: 5px;
-    width: 100%;
-}
-
-.progress-bar {
-    background-color: #7f95a8;
-    border-radius: 5px;
-    height: 100%;
-    width: 0%;
-    transition: width 0.1s linear;
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-*/
 body {
     background-color: #E1E8EB;
     display: flex;
@@ -169,7 +33,7 @@ h1 {
     margin: 20px auto;
     width: 350px;
     background-color:white;
-    padding: 20px;
+    padding: 15px;
     border-radius:5px;
 }
 .album-art {
@@ -179,9 +43,8 @@ h1 {
 }
 
 .album-art img {
-    object-fit: cover;
-    height: 240px;
-    width: 240px;
+    height: 250px;
+    width: 320px;
     align-items: center;
     justify-content: center;
 }
