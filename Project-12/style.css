@@ -58,7 +58,7 @@ select {
     padding: 30px;
     border-radius: 10px;
     text-align: center;
-    width: 500px;
+    width: 400px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
     position: relative;
 }

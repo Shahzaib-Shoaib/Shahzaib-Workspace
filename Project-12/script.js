@@ -20,7 +20,7 @@ let randomWord;
 let score = 0;
 
 // Initialize time
-let time = 10;
+let time = 1000;
 
 // Initialize difficulty
 let difficulty = localStorage.getItem('difficulty') !== null ? localStorage.getItem('difficulty') : 'easy';
