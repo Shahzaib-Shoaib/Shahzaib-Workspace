@@ -10,7 +10,7 @@ const title = document.getElementById('song-title');
 const albumArt = document.getElementById('album-art');
 
 // Track Array
-const tracks = ['Ertugrul', 'National Anthem'];
+const tracks = ['Aadat-Instrumental', 'Powfu - Death Bed (Lyrics) ft. beabadoobee'];
 
 // Index of Currently Playing Song
 let trackIndex = 1;
