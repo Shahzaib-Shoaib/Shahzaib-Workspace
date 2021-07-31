@@ -5,7 +5,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
 body {
     background-color: #E1E8EB;
     display: flex;
@@ -30,11 +29,12 @@ h1 {
     align-items:center;
 }
 .container {
-    margin: 20px auto;
     width: 350px;
-    background-color:white;
+    background-color: rgba(31, 41, 55, 1);	
     padding: 15px;
-    border-radius:5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
 }
 .album-art {
     position: relative;
@@ -54,32 +54,38 @@ h1 {
     align-items: center;
     justify-content: center;
     z-index: 1;
+    background-color: rgba(17, 24, 39, 1);
+    width:350px;
+    height:70px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
+
 .nav-btn {
-    background-color: black;
-    border-radius: 20px;
-    border: 1px solid black;
-    color: white;
-    padding: 10px;
+    background-color: rgba(17, 24, 39, 1);
+    border:none;
+    color:white;
+    padding: 14px;
     margin: 0 10px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
 }
 
 .nav-btn-large {
-    font-size: 24px;
+    font-size: 26px;
 }
 .info h4 {
     margin: 10px;
     text-align: center;
+    color:white;
 }
 h1 {
     margin-bottom: 100px;
 }
 
 .progress {
-    background-color: gray;
+    background-color: black;
     border-radius: 5px;
     cursor: pointer;
     margin: 10px 0;
@@ -88,7 +94,7 @@ h1 {
 }
 
 .progress-bar {
-    background-color: black;
+    background-color: #d4e157;
     border-radius: 5px;
     height: 100%;
     width: 0%;
