@@ -3,6 +3,7 @@ const container = document.getElementById('container');
 const previousBtn = document.getElementById('previous');
 const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
+const shuffleBtn = document.getElementById('shuffle');
 const audio = document.getElementById('audio');
 const progress = document.getElementById('progress');
 const progressBar = document.getElementById('progress-bar');
@@ -10,9 +11,10 @@ const title = document.getElementById('song-title');
 const albumArt = document.getElementById('album-art');
 
 // Track Array
-const tracks = ["AADAT INSTRUMENTAL-BHANWARAY feat. Goher Mumtaz  NESCAFÉ Basement Season 5  2019", 'Powfu - Death Bed (Lyrics) ft. beabadoobee','National Anthem Of Pakistan'];
-
+const tracks = ["Aadat Instrumental-Bhanwaray ft. Goher Mumtaz NESCAFÉ Basement", 'Powfu - Death Bed (Lyrics) ft. beabadoobee','Heather x Eyes Blue (Lofi Remix)','Sickick - Talking to the Moon (Bruno Mars Remix)','sapientdream - Pastlives (lyrics)','XXXTENTACION - SAD!'];
+console.log(tracks.length)
 // Index of Currently Playing Song
+
 let trackIndex = 1;
 
 // Load the initial track
@@ -46,6 +48,18 @@ function pauseTrack() {
     playBtn.innerHTML = '<i class="fas fa-play"></i>';
     // Pause the track using the audio element
     audio.pause();
+};
+
+// Function to shuffle the track
+function shuffleTrack() {
+    // to generate the random number
+    shuffle =Math.round(Math.random()*5);
+    // Change the value of trackIndex by shuffle to select the random track from the trackArray
+    trackIndex = shuffle ;
+    // Load the selected track
+    loadTrack(tracks[trackIndex]);
+    // Play the selected track
+    playTrack();
 };
 
 // Function to switch to previous track
@@ -120,6 +134,9 @@ previousBtn.addEventListener('click', prevTrack);
 
 // 3. Listen for click on the nextBtn
 nextBtn.addEventListener('click', nextTrack);
+
+// 3. Listen for click on the nextBtn
+shuffleBtn.addEventListener('click', shuffleTrack);
 
 // 4. Listen for a timeupdate on audio element
 audio.addEventListener('timeupdate', updateProgress);
