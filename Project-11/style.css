@@ -37,22 +37,27 @@ h1 {
     width: 100%;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
+    border:none;
+    border-radius:8px;
 }
 
 .post {
     position: relative;
     background-color: #f2f2f2;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-    border-radius: 2px;
+    border-radius: 8px;
     padding: 25px;
     margin: 40px 0;
     display: flex;
-    width: 75vw;
-    max-width: 800px;
+    width: 450px;
+    height: 400px;
 }
 
 .post-content {
     margin-left: 25px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 
 .post-title {
