@@ -1,3 +1,22 @@
+:root {
+    --main-color: #FDEFEF;
+    --primary-color: #CDBBA7;
+    --secondary-color: #DAD0C2;
+    --third-color: #F4DFD0;
+    --text-color: #1e3932;
+    --text-secondary-color: rgba(0,0,0,.87);    
+}
+// main-color = order,uber eats,pride month    #d4e9e2
+// primary color = announcement section        #d8e8e3
+// secondary color = free coffee section       #f1f8f6
+// third color = chill section                 #f2f0eb
+// text color = all sections                   #1e3932
+// text secondary color = announcements,header sections and footer          rgba(0,0,0,.87)
+
+//light: "#3fbaeb",
+//DEFAULT: "#0fa9e6",
+//dark: "#0c87b8",
+
 
 .main-container {
     max-width: 1440px;
@@ -9,7 +28,7 @@
     margin-bottom: 32px;
     display: flex;
     justify-content: center;
-    background-color: #d8e8e3;
+    background-color: var(--primary-color);
 }
 
 .announcements span {
@@ -32,13 +51,13 @@
 
 .left-right-section .text {
     width: 50%;
-    color: #1e3932;
+    color: var(--text-color);
     padding: 32px 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f1f8f6;
+    background-color: var(--secondary-color);
 }
 
 .left-right-section .image {
@@ -70,7 +89,7 @@
     padding: 7px 16px;
     border: 1px solid;
     border-radius: 50px;
-    color: #1e3932;
+    color: var(--text-color);
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -82,7 +101,7 @@
 }
 
 .chill .text {
-    background-color: #f2f0eb;
+    background-color: var(--third-color);
 }
 
 .chill .text h1 {   
@@ -142,12 +161,12 @@ section {
 }
 
 .top-bottom-section .text {
-    background-color: #d4e9e2;
+    background-color: var(--main-color);
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 32px;
     padding-top: 16px;
-    color: #1e3932;
+    color: var(--text-color);
     flex-grow: 1;
     font-size: 16px;
 }
@@ -175,13 +194,13 @@ section {
 
 .left-right-section-end .text {
     width: 50%;
-    color: #1e3932;
+    color: var(--text-color);
     padding: 32px 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #d4e9e2;
+    background-color: var(--main-color);
 }
 
 .left-right-section-end .image {

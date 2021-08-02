@@ -27,7 +27,7 @@ footer {
 }
 
 .footer-container ul li:hover {
-    color: rgba(0,0,0,.87);
+    color: var(--text-secondary-color);
 }
 
 .links-container {
