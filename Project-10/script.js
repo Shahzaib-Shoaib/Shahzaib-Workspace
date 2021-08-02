@@ -142,20 +142,31 @@ playBtn.addEventListener('click', () => {
     }
 });
 
+
 // 2. Listen for click on the previousBtn
 previousBtn.addEventListener('click', prevTrack);
 
 // 3. Listen for click on the nextBtn
 nextBtn.addEventListener('click', nextTrack);
 
-// 3. Listen for click on the nextBtn
+// 4. Listen for click on the nextBtn
 shuffleBtn.addEventListener('click', shuffleTrack);
 
-// 4. Listen for a timeupdate on audio element
+// 5. Listen for a timeupdate on audio element
 audio.addEventListener('timeupdate', updateProgress);
 
-// 5. Listen for click on the progress bar
+// 6. Listen for click on the progress bar
 progress.addEventListener('click', setProgress);
 
-// 6. Listen for end of playback for current track
+// 7. Listen for end of playback for current track
 audio.addEventListener('ended', nextTrack);
+
+// 8. Listen for space to resume the track
+document.addEventListener('keydown', event => {
+    if (event.code === 'Space') {
+        playTrack();
+    }
+  })
+  
+
+
