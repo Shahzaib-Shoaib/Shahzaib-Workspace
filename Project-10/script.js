@@ -31,7 +31,7 @@ function loadTrack(track) {
     audio.src = `music/${track}.mp3`;
     // Update the src in the img element with the image file of the selected track
     albumArt.src = `images/${track}.jpeg`;
-    // Update the src in the img element with the image file of the selected track
+    // Update the artist of the selected track
     artist.innerText = artists[trackIndex];
 };
 
