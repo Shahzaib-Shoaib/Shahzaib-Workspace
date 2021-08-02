@@ -15,7 +15,7 @@ const albumArt = document.getElementById('album-art');
 const tracks = ["Aadat Instrumental-Bhanwaray NESCAFÉ Basement", 'Powfu - Death Bed (Lyrics) ft. beabadoobee','Heather x Eyes Blue (Lofi Remix)','Sickick - Talking to the Moon (Bruno Mars Remix)','sapientdream - Pastlives (lyrics)','XXXTENTACION - SAD!'];
 console.log(tracks.length)
 // Artist Array
-const artists = ['Nescafe Basement','Powfu ft beabadoobee','Lofi','Sickick','sapientdream','Xxxtentacion'];
+const artists = ['Nescafe Basement','Powfu ft beabadoobee','Fran Vasilić','Sickick, Bruno Mars','sapientdream','Xxxtentacion'];
 // Index of Currently Playing Song
 
 let trackIndex = 1;
