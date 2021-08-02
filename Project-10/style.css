@@ -29,7 +29,7 @@ h2 {
     align-items:center;
 }
 .container {
-    height:400px;
+    height:440px;
     width: 380px;
     box-shadow: 0 10px 15px -3px;
     background-color: rgba(31, 41, 55, 1);	
@@ -79,11 +79,17 @@ h2 {
 }
 .info h4 {
     margin-top: 20px;
-    margin-bottom:10px;
     text-align: center;
     color:white;
     font-weight: 200;
 }
+
+.info h5 {
+    margin-bottom:10px;
+    color: rgba(156, 163, 175, 1);	
+    font-weight: 200;
+}
+
 h1 {
     margin-bottom: 100px;
 }
@@ -95,6 +101,7 @@ h1 {
     margin: 10px 0 ;
     height: 5px;
     width: 100%;
+    margin-bottom:2px;
 }
 
 .progress-bar {

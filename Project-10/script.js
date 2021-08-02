@@ -8,11 +8,14 @@ const audio = document.getElementById('audio');
 const progress = document.getElementById('progress');
 const progressBar = document.getElementById('progress-bar');
 const title = document.getElementById('song-title');
+const artist = document.getElementById('song-artist');
 const albumArt = document.getElementById('album-art');
 
 // Track Array
-const tracks = ["Aadat Instrumental-Bhanwaray ft. Goher Mumtaz NESCAFÉ Basement", 'Powfu - Death Bed (Lyrics) ft. beabadoobee','Heather x Eyes Blue (Lofi Remix)','Sickick - Talking to the Moon (Bruno Mars Remix)','sapientdream - Pastlives (lyrics)','XXXTENTACION - SAD!'];
+const tracks = ["Aadat Instrumental-Bhanwaray NESCAFÉ Basement", 'Powfu - Death Bed (Lyrics) ft. beabadoobee','Heather x Eyes Blue (Lofi Remix)','Sickick - Talking to the Moon (Bruno Mars Remix)','sapientdream - Pastlives (lyrics)','XXXTENTACION - SAD!'];
 console.log(tracks.length)
+// Artist Array
+const artists = ['Nescafe Basement','Powfu ft beabadoobee','Lofi','Sickick','sapientdream','Xxxtentacion'];
 // Index of Currently Playing Song
 
 let trackIndex = 1;
@@ -28,6 +31,8 @@ function loadTrack(track) {
     audio.src = `music/${track}.mp3`;
     // Update the src in the img element with the image file of the selected track
     albumArt.src = `images/${track}.jpeg`;
+    // Update the src in the img element with the image file of the selected track
+    artist.innerText = artists[trackIndex];
 };
 
 // Function to play the track
@@ -38,6 +43,7 @@ function playTrack() {
     playBtn.innerHTML = '<i class="fas fa-pause"></i>';
     // Play the track using the audio element
     audio.play();
+
 };
 
 // Function to pause the track
@@ -48,6 +54,7 @@ function pauseTrack() {
     playBtn.innerHTML = '<i class="fas fa-play"></i>';
     // Pause the track using the audio element
     audio.pause();
+
 };
 
 // Function to shuffle the track
@@ -60,6 +67,8 @@ function shuffleTrack() {
     loadTrack(tracks[trackIndex]);
     // Play the selected track
     playTrack();
+    console.log(trackIndex)
+
 };
 
 // Function to switch to previous track
@@ -75,6 +84,8 @@ function prevTrack() {
     loadTrack(tracks[trackIndex]);
     // Play the selected track
     playTrack();
+    console.log(trackIndex)
+
 };
 
 // Function to switch to next track
@@ -90,6 +101,8 @@ function nextTrack() {
     loadTrack(tracks[trackIndex]);
     // Play the selected track
     playTrack();
+    console.log(trackIndex)
+
 };
 
 // Function to update the progress bar
