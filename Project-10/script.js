@@ -9,6 +9,7 @@ const progress = document.getElementById('progress');
 const progressBar = document.getElementById('progress-bar');
 const title = document.getElementById('song-title');
 const artist = document.getElementById('song-artist');
+const duration = document.getElementById('song-duration');
 const albumArt = document.getElementById('album-art');
 
 // Track Array
@@ -16,6 +17,8 @@ const tracks = ["Aadat Instrumental-Bhanwaray NESCAFÉ Basement", 'Powfu - Death
 console.log(tracks.length)
 // Artist Array
 const artists = ['Nescafe Basement','Powfu ft beabadoobee','Fran Vasilić','Sickick, Bruno Mars','sapientdream','Xxxtentacion'];
+// Duuration Array 
+const durations = ['10:36','2:54','3:00','1:56','2:33','2:47'];
 // Index of Currently Playing Song
 
 let trackIndex = 1;
@@ -33,6 +36,8 @@ function loadTrack(track) {
     albumArt.src = `images/${track}.jpeg`;
     // Update the artist of the selected track
     artist.innerText = artists[trackIndex];
+    // Update the duration of the selected track
+    duration.innerText = durations[trackIndex];
 };
 
 // Function to play the track
@@ -84,7 +89,6 @@ function prevTrack() {
     loadTrack(tracks[trackIndex]);
     // Play the selected track
     playTrack();
-    console.log(trackIndex)
 
 };
 
@@ -101,7 +105,6 @@ function nextTrack() {
     loadTrack(tracks[trackIndex]);
     // Play the selected track
     playTrack();
-    console.log(trackIndex)
 
 };
 
@@ -143,6 +146,7 @@ playBtn.addEventListener('click', () => {
 });
 
 
+
 // 2. Listen for click on the previousBtn
 previousBtn.addEventListener('click', prevTrack);
 
@@ -161,12 +165,40 @@ progress.addEventListener('click', setProgress);
 // 7. Listen for end of playback for current track
 audio.addEventListener('ended', nextTrack);
 
-// 8. Listen for space to resume the track
-document.addEventListener('keydown', event => {
-    if (event.code === 'Space') {
-        playTrack();
+// 8. Listen for space to resume/play the track
+document.addEventListener('keyup', event => {
+     // Check if track is playing
+     const isPlaying = container.classList.contains('play');
+     if (event.code === 'Space') {
+     // Conditional statement based on status of audio playback
+     if (isPlaying) {
+         // If the track is playing, pause the track
+         pauseTrack();
+     } else {
+         // If the track is not playing, play the track
+         playTrack();
+     }
     }
-  })
-  
+  });
 
+// 8. Listen for arrows to play prev/next track
+document.onkeydown = checkKey;
 
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        // up arrow
+    }
+    else if (e.keyCode == '40') {
+        // down arrow
+    }
+    else if (e.keyCode == '37') {
+       prevTrack();
+    }
+    else if (e.keyCode == '39') {
+       nextTrack();
+    }
+
+}

@@ -6,7 +6,7 @@ const loader = document.getElementById('loader');
 // Global Variables for number of posts to fetch per api call and current page
 let limit = 5;
 let page = 1;
-
+   
 // Function to asynchronously fetch posts from API
 async function fetchPosts() {
     // Fetch posts from the JSON Placeholder API
@@ -35,6 +35,28 @@ async function renderPosts() {
         `;
         // Render the postDiv in the DOM
         newsFeed.appendChild(postDiv);
+
+        const reactionDiv = document.createElement('div');
+        // Assign the post class to this div
+        reactionDiv.classList.add('reaction');
+        // Create the inner content for the main post div
+        reactionDiv.innerHTML = `
+            <div class="reaction">  
+             <!-- Button: like -->
+            <button id="like" class="nav-btn">
+            <i class="far fa-thumbs-up"><span> Like</span></i>
+            </button>
+            <!-- Button: change to previous song -->
+            <button id="comment" class="nav-btn">
+            <i class="far fa-comment-alt"><span> Comment</span></i>
+            </button>
+            <!-- Button: play / pause song -->
+            <button id="share" class="nav-btn nav-btn-large">
+            <i class="fas fa-share"><span> Share</span></i>
+            </button></div>
+        `;
+       // Render the postDiv in the DOM
+       newsFeed.appendChild(reactionDiv); 
     });
 };
 
@@ -66,9 +88,12 @@ function filterPosts(e) {
         if ( title.indexOf(filterKeyword) >= 0 || body.indexOf(filterKeyword) >= 0 ) {
             // Display the post if the filterKeyword exists in title or body of post
             post.style.display = 'flex';
+            reactionDiv.style.display = 'none';
+
         } else {
             // Hide the post if the filterKeyword does not exist in title or body of post
             post.style.display = 'none';
+            reactionDiv.style.display = 'none';
         }
     })
 };
