@@ -47,9 +47,9 @@ header {
 }
 
 .search-container {
-    background-color: #1C1C24;
     height: 60px;
     border-radius: 10px;
+    background-color: #1C1C24;
     border: 2px solid #222328;
     display: flex;
     overflow: hidden;
