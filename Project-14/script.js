@@ -25,7 +25,7 @@ const data = [
     // For Grandma Image
     {
         image: './img/grandma.jpg',
-        text: "I'm Miss Grandma"
+        text: "I Miss GrandPa"
     },
     // For Happy Image
     {
@@ -55,7 +55,7 @@ const data = [
     // For Scared Image
     {
         image: './img/scared.jpg',
-        text: "I'm scary"
+        text: "I'm scared"
     },
     // For School Image
     {
