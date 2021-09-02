@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
     background-color: #ecf0f1;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     min-height: 100vh;
     margin: 0;
 }
@@ -18,11 +18,14 @@ body {
 
 h1 {
     text-align: center;
+    
 }
 
 .btn {
     cursor: pointer;
-    background-color: #d35400;
+    font-family: 'Raleway', sans-serif;
+
+    background-color: orange;
     border: 0;
     border-radius: 5px;
     color: white;
@@ -60,7 +63,8 @@ h1 {
 }
 
 .custom-text select {
-    background-color: #d35400;
+    font-family: 'Raleway', sans-serif;
+    background-color: orange;
     border: 0;
     color: white;
     font-size: 16px;
@@ -74,6 +78,8 @@ select:focus {
 
 .custom-text textarea {
     border: 1px #ecf0f1 solid;
+    font-family: 'Raleway', sans-serif;
+
     border-radius: 5px;
     font-size: 16px;
     padding: 10px;
@@ -119,7 +125,7 @@ main {
 }
 
 .box .imageInfo {
-    background-color: #d35400;
+    background-color: orange;
     color: white;
     font-size: 16px;
     letter-spacing: 1px;
@@ -147,3 +153,25 @@ main {
         grid-template-columns: 1fr;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    
+    .custom-text {
+        width:90%;
+       
+    }
+    .custom-text select {
+        font-family: 'Raleway', sans-serif;
+        background-color: orange;
+        border: 0;
+        color: white;
+        font-size: 10px;
+        height: 30px;
+        width: 100%;
+    }
+
+   
+
+    
+
+  }
