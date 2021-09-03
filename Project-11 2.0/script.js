@@ -3,7 +3,6 @@ const main = document.getElementById('main');
 
 
 const data = [
-    // For Shoe 1
     {
         name:'Nike Air VaporMax 2021 FK',
         image: './img/air-vapormax-2021-fk-mens-shoes-NpTfFz.jpg',
@@ -104,11 +103,18 @@ function createUIElement(predefinedObject) {
         <p class="product-name">${name} </p>
         <p class="category">${category}</p>
         <span class="price">$${price}</span>
+        <button class="addproduct" class = "open"> Add to Bag</button>
     `;
     
     // Render in the UI
     main.appendChild(div);
+    
 };
 
-// Run a loop on the data array to display the images in the UI
+// Run a loop on the data array to display the content in the UI
 data.forEach(createUIElement);
+
+
+
+
+
