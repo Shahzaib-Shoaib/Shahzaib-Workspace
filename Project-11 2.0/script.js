@@ -23,7 +23,7 @@ const data = [
         name:'Nike Pegasus Trail 3',
         image: './img/pegasus-trail-3-mens-trail-running-shoes-QPcRqp.jpg',
         category: "Men's Shoes",
-        price:'',
+        price:'130',
     },
     // 
     {
@@ -55,38 +55,38 @@ const data = [
     },
     // 
     {
-        name:'',
-        image: './img/outside.jpg',
+        name:'Nike Air Max 95 Essential',
+        image: './img/air-max-95-essential-mens-shoes-V8wCh2.jpg',
         category: "Men's Shoes",
-        price:'',
+        price:'170',
     },
     // 
     {
-        name:'',
-        image: './img/sad.jpg',
+        name:'Zion 1',
+        image: './img/zion-1-basketball-shoes-bJ0hLJ.jpg',
         category: "Men's Shoes",
-        price:'',
+        price:'120',
     },
     // 
     {
-        name:'',
-        image: './img/scared.jpg',
+        name:'Air Max BW',
+        image: './img/air-max-bw-los-angeles-release-date.jpg',
         category: "Men's Shoes",
-        price:'',
+        price:'140',
     },
     // 
     {
-        name:'',
-        image: './img/school.jpg',
+        name:'Nike Air Max 96 II',
+        image: './img/air-max-96-ii-mens-shoes-CGqLnr.jpg',
         category: "Men's Shoes",
-        price:'',
+        price:'160',
     },
     // 
     {
-        name:'',
-        image: './img/tired.jpg',
+        name:"Nike Air Force 1 High '07",
+        image: './img/air-force-1-high-07-mens-shoes-CGjvNW.jpg',
         category: "Men's Shoes",
-        price:'',
+        price:'100',
     },
 ];
 

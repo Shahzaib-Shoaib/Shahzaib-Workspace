@@ -56,7 +56,7 @@ header {
     background-color: transparent;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     font-size: 20px;
     margin-left: 20px;
 }
@@ -113,7 +113,7 @@ header {
     align-items: center;
 }
 
-.settings {
+.cart {
     display: flex;
     align-items: center;
     margin-right: 40px;
@@ -122,15 +122,14 @@ header {
     align-items: center;
 }
 
-.settings i {
+.cart i {
     padding-right: 8px;
     font-size: 24px;
     cursor: pointer;
 }
 
-.settings:hover {
-    color: #008248;
-}
+.cart:hover {
+    color: rgba(0,0,0,.7);}
 
 .log-in, .sign-up {
     padding: 7px 16px;
@@ -189,8 +188,8 @@ main {
     margin-bottom:5px;
 }
 
-.card:active {
-    box-shadow: 0 0 10px 5px #d35400;
+.card:hover {
+    box-shadow: 0 0 10px 5px grey;
 }
 
 .card img {
@@ -204,9 +203,12 @@ main {
 }
 .category {
     margin-top:2px;
+    margin-left:3px;
+
 }
 .price {
     margin-top:0px;
+    margin-left:3px;
 }
 
 
@@ -227,6 +229,21 @@ main {
     main {
         grid-template-columns: 1fr;
     }
+    
+}
+
+@media (max-width: 960px) {
+   
+    .header-container {
+        max-width:100%;
+    }
+    .left-nav{
+        display:none;
+    }
+    .right-nav {
+        margin-left:20px;
+    }
+    
 }
 
 
