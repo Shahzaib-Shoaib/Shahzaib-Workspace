@@ -304,3 +304,20 @@ main {
     margin-left:40px;
     font-size:15px;
 }
+
+@media (max-width: 960px) {
+   
+    main {
+        grid-template-columns: 1fr;
+    }
+    .header-container {
+        max-width:100%;
+    }
+    .left-nav{
+        display:none;
+    }
+    .right-nav {
+        margin-left:30px;
+    }
+    
+}
