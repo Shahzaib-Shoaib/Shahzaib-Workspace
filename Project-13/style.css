@@ -34,6 +34,8 @@ h1 button#clear-cards {
 
 .btn {
     cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+
     background-color: #e2e2e2;
     border: 1px solid #a2a2a2;
     border-radius: 5px;
@@ -83,6 +85,7 @@ h1 button#clear-cards {
 
 .inside-card {
     box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+    
     border-radius: 10px;
     height: 100%;
     width: 100%;
@@ -195,8 +198,6 @@ textarea {
         width:100%;
         align-item:center;
         justify-content:center;
-     //   margin-left:2px;
-      //  margin-right:2px;
     }
     textarea{
         min-width:0;
