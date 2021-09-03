@@ -8,6 +8,7 @@ const data = [
         image: './img/air-vapormax-2021-fk-mens-shoes-NpTfFz.jpg',
         category: "Men's Shoes",
         price:'200',
+        link:'./products/product-1.html'
     },
     // 
     {
@@ -91,7 +92,7 @@ const data = [
 
 // Function to create UI elements for pre-defined text to speech
 function createUIElement(predefinedObject) {
-    const { name, image, category,price } = predefinedObject;
+    const { name, image, category,price,link } = predefinedObject;
     // Create the DOM Element
     const div = document.createElement('div');
     // Apply CSS to the div
@@ -103,7 +104,7 @@ function createUIElement(predefinedObject) {
         <p class="product-name">${name} </p>
         <p class="category">${category}</p>
         <span class="price">$${price}</span>
-        <button class="addproduct" class = "open"> Add to Bag</button>
+     <a class="addproduct" href="${link}"><button class="addbtn">Add to Bag</button></a>
     `;
     
     // Render in the UI
@@ -113,8 +114,6 @@ function createUIElement(predefinedObject) {
 
 // Run a loop on the data array to display the content in the UI
 data.forEach(createUIElement);
-
-
 
 
 
