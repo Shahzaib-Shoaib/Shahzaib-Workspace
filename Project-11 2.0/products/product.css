@@ -175,7 +175,8 @@ main {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     margin-left:25px;
-    margin-top:20px;
+    margin-top:30px;
+    margin-bottom:50px;
 }
 .main-container {
     display:flex;
@@ -199,7 +200,7 @@ main {
 
 }
 .sizes li{
-    margin-left:5px;
+    margin-right:5px;
     border:1px solid black;
     padding:8px;
     background-color:white;
@@ -209,8 +210,16 @@ main {
 .buy {
     padding:15px;
     border:1px solid black;
+    border-radius:10px;
     background-color:white;
     color:black;
+    margin-right:150px;
+    margin-top:20px;
+    font-size:15px;
+}
+.buy:hover {
+    background-color:black;
+    color:white;
 }
 
 
