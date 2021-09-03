@@ -20,6 +20,7 @@ a {
     color: black;
 }
 
+              /* Header Bar */
 header {
     height: 75px;
     z-index: 10;
@@ -169,6 +170,48 @@ header {
 }
 
 
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left:25px;
+    margin-top:20px;
+}
+.main-container {
+    display:flex;
+    flex-direction:column;
+}
+.product-name {
+    font-size:70px;
+}
+.price {
+    font-size:40px;
+}
+
+.sizes {
+    list-style-type:none;
+    display:flex;
+}
+.sizes li:hover{
+    border:1px solid black;
+    background-color:black;
+    color:white;
+
+}
+.sizes li{
+    margin-left:5px;
+    border:1px solid black;
+    padding:8px;
+    background-color:white;
+    color:black;
+}
+
+.buy {
+    padding:15px;
+    border:1px solid black;
+    background-color:white;
+    color:black;
+}
 
 
 
@@ -183,6 +226,20 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+                     /* Footer Bar */
+ 
+                
 .end {
     margin-top:20px;
 
