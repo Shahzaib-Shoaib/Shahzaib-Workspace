@@ -211,15 +211,15 @@ main {
     padding:15px;
     border:1px solid black;
     border-radius:10px;
-    background-color:white;
-    color:black;
+    background-color:black;
+    color:white;
     margin-right:150px;
     margin-top:20px;
     font-size:15px;
 }
 .buy:hover {
-    background-color:black;
-    color:white;
+    background-color:white;
+    color:black;
 }
 
 

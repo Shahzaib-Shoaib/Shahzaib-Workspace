@@ -162,3 +162,4 @@ readBtn.addEventListener('click', () => {
     setText(customText.value);
     speakText();
 })
+
