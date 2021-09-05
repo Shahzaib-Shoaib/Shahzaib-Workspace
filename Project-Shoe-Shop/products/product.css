@@ -185,6 +185,12 @@ main {
 .product-name {
     font-size:70px;
 }
+
+img {
+    border-radius:8px;
+    width:592;
+    height:592;
+}
 .price {
     font-size:40px;
 }
@@ -199,10 +205,16 @@ main {
     color:white;
 
 }
+.sizes li:checked{
+    border:1px solid black;
+    background-color:black;
+    color:white;
+
+}
 .sizes li{
     margin-right:5px;
     border:1px solid black;
-    padding:8px;
+    padding:8px 8px;
     background-color:white;
     color:black;
 }
@@ -314,6 +326,7 @@ main {
     }
     img {
       width:100%;
+      
     }
     .product-name {
         font-size:40px;
