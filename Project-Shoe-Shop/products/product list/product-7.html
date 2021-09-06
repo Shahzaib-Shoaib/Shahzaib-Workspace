@@ -52,17 +52,59 @@
 
             <h1 class="product-name">Nike Air Zoom Pegasus 38</h1>
             <span class="price">$180</span>
-            <ul class="sizes">
-                <li>XS</li>
-                <li>S</li>
-                <li>M</li>
-                <li>L</li>
-            </ul>
-<a href="">            <button class="buy">Buy Now!</button>
-</a>        </div>
-    </main>
+            <div class="size-container">
+                <label>
+                    <input class="size" name="size" type="button" value="6" >
+  
+                  </label>
+                  <label>
+                    <input class="size" name="size" type="button" value="7">
+                    
+                  </label>
+                  <label>
+                    <input class="size" name="size" type="button" value="8">
+                    
+                  </label>
+                  <label>
+                    <input class="size" name="size" type="button" value="9">
+                    
+                  </label>
+                  <label>
+                    <input class="size" name="size" type="button" value="10">
+                    
+                  </label>
+                  
+                  <label>
+                    <input class="size" name="size" type="button" value="11" >
+  
+                  </label>
+              </div>
+              <a href="https://static.wixstatic.com/media/36e3fe_61286c54dea14609be1649df08c2cc1c~mv2.jpg/v1/fill/w_600,h_200,al_c,q_80,usm_0.66_1.00_0.01/36e3fe_61286c54dea14609be1649df08c2cc1c~mv2.webp">Size Guide</a>
 
+         <button class="buy" id="open">Buy Now!</button>
+         </div>
+    </main>
+        <!-- Modal -->
+        <div class="modal-container" id="modal">
+            <div class="modal">
+                <button class="close-btn" id="close">
+                    <i class="fa fa-times"></i>
+                </button>
+                <div class="modal-header">
+                    <h3>Confirmation</h3>
+                </div>
+                <div class="modal-content" id="modal-content">
+                    <img src="../product-img/air-zoom-pegasus-38-mens-running-shoe-jQfFVs.jpg" alt="">
+                    <div class="modal-product-name">Nike Air Zoom Pegasus 38</div>
+                    <div class="modal-product-price">$180</div>
+                    <button class="shop" id="shop">Continue Shopping</button>
+                   <a href="" class="checkout">Checkout</a>
+                   </div>
+                </div>
+            </div>
+        </div>
  
+
 
     <div class="end">
         <div class="icons">  
@@ -87,6 +129,6 @@
      <span>© 2021 Shoe Store. No rights reserved. The owner of this website do not own any images</span>
  </div>
      </div>
-    
+    <script src="../product.js"></script>
 </body>
 </html>
