@@ -1,112 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    color:black;
+}
+
+html {
+    font-size: 10px;
+    margin: 0 auto;
 }
 
 body {
-    background-color: #f5f6fa;
     font-family: 'Raleway', sans-serif;
-    margin: 0;
-}
 
-button {
-    cursor: pointer;
-}
-
-button:active {
-    transform: scale(.95);
-}
-
-button:focus {
-    outline: 0;
-}
-
-header {
+    height: 100vh;
     position: relative;
-    background-color: #dcdde1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0;
 }
 
-header h1 {
-    margin: 0 0 30px;
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 50%; 
+    height: 100%;
+    width: 900px;
+    background: white;
+    background-attachment: fixed;
+    z-index: -1;
+    transform: translateX(-50%);
+    
 }
 
-form {
-    position: relative;
-    max-width: 100%;
-    width: 500px;
+/* UTILITY */
+.p-small {
+    padding-bottom: 5px;
 }
-
-form input {
-    border: 0;
-    border-radius: 50px;
-    font-size: 16px;
-    padding: 15px 30px;
-    width: 100%;
+.p-medium {
+    padding-bottom: 10px;
 }
-
-form input:focus {
-    outline: 0;
+.p-y {
+    padding: 10px 0;
 }
-
-form button {
-    position: absolute;
-    top: 2px;
-    right: 2px;
-    background-color: #9c88ff;
-    color: #f5f6fa;
-    border: 0;
-    border-radius: 50px;
-    font-size: 16px;
-    padding: 13px 30px;
-}
-
-.container {
-    margin: 30px auto;
-    max-width: 100%;
-    width: 500px;
-}
-
-.container h2 {
-    text-align: center;
-}
-
-.container p {
-    text-align: left;
-    margin: auto auto;
-    padding: 30px;
-}
-
-ul.songs {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul.songs li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.m-y {
     margin: 10px 0;
 }
 
-.btn {
-    background-color: #9c88ff;
-    border: 0;
-    border-radius: 20px;
-    color: #f5f6fa;
-    padding: 5px 10px;
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
 
-.centered {
+img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+header .container{
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #dcdde1;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: black;
+    padding-bottom: 30px;
+}
+
+form input,
+form button {
+    outline: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+}
+form input {
+    width: 50%;
+    border-radius: 8px;
+    margin-right: 3px;
+}
+
+form input:focus{
+    border:1px solid transparent;
+}
+
+form button {
+    background-color: #9C88FF;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+form button:hover {
+    border: 1px solid transparent;
+}
+
+form button:focus {
+    border: 1px solid transparent;
+}
+
+section .container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.songs {
+    width: 70%;
+    list-style: none;
+    margin:0 auto;
+    padding: 2rem 0;
+}
+
+.songs li {
+    font-size: 1.4rem;
+    text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
 }
 
-.centered button {
-    margin: 15px;
+.songs li span{
+    font-size: 15px;
+    margin:12px;
+    background-color: #9C88FF;
+    color:white;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
