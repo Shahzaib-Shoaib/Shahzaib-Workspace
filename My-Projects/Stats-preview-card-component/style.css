@@ -24,6 +24,8 @@ main {
 .left-side {
   background-color: hsl(244, 38%, 16%);
   flex-direction: column;
+  max-width: 600px;
+
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
