@@ -5,7 +5,7 @@ body {
   box-sizing: border-box;
   background-color: hsl(233, 47%, 7%);
   display: grid;
-  margin: 5px;
+  margin: 10px;
 }
 
 .container {
@@ -31,8 +31,8 @@ body {
 h1 {
   font-family: "Inter", sans-serif;
   color: hsl(0, 0%, 100%);
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 h1 span {
