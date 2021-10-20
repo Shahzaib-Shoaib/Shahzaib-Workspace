@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: white;
   text-decoration: none;
 }
 
@@ -201,7 +201,7 @@ img {
   background: var(--light-color);
   color: #333;
   border-radius: 10px;
-  padding: 0.4rem 1.3rem;
+  padding: 0.6rem 1.3rem;
   font-size: 18px;
   border: none;
   cursor: pointer;

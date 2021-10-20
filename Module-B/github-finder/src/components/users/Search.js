@@ -25,7 +25,9 @@ const Search = () => {
     return (
         <div>
             <form onSubmit={onSubmit} className="form">
-                <input type="text" name="text" placeholder="Search Users" 
+            
+                <input  type="text" name="text" placeholder="Search Users " autoComplete="off"
+               
                     value={text}
                     onChange={onChange}
                 />
