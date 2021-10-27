@@ -22,12 +22,12 @@ body {
 }
 
 .main-container {
-  margin-top: 125px;
+  margin-top: 135px;
   background-color: white;
   position: relative;
   border-radius: 15px;
   width: 360px;
-  height: 425px;
+  height: 415px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,7 +58,7 @@ p {
   font-weight: 700;
   font-size: 15px;
   margin-top: -10px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .stats {
   border-top: 1px solid hsl(227, 10%, 46%);
@@ -73,7 +73,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 35px 35px 25px;
+  margin: 20px 35px 0px 25px;
   font-weight: 700;
 }
 
