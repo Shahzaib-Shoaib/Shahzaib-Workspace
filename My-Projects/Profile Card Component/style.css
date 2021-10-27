@@ -22,7 +22,7 @@ body {
 }
 
 .main-container {
-  margin-top: 120px;
+  margin-top: 125px;
   background-color: white;
   position: relative;
   border-radius: 15px;
@@ -78,6 +78,7 @@ p {
 }
 
 .lower-content span {
+  margin-top: 2px;
   font-weight: 400;
   font-size: 15px;
 }
