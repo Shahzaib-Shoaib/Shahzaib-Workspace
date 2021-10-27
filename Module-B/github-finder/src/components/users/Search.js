@@ -25,19 +25,27 @@ const Search = () => {
     return (
         <div>
             <form onSubmit={onSubmit} className="form">
-            
+                <div className="input-container">
+                <i className="fas fa-search"/>
+
                 <input  type="text" name="text" placeholder="Search Users " autoComplete="off"
                
                     value={text}
                     onChange={onChange}
                 />
+                </div>
                 <input type="submit" value="Search" className="btn btn-dark btn-block" />
+                
             </form>
             {githubContext.users.length > 0 && (
                 <button onClick={githubContext.clearUsers} className="btn btn-light btn-block">Clear</button>
             )}
         </div>
     )
-}
+}/*
+ <div class="input-container">
+<i class="fas fa-search"></i>
+<input type="text" id="filter-jobs" name="filter-jobs" placeholder="Filter by title" >
+</div>*/
 
 export default Search;
