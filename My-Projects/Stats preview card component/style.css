@@ -125,19 +125,19 @@
     justify-content: center;
   }
 
+  .mobile {
+    display: none;
+  }
+
   .lower-content {
     display: flex;
     flex-direction: column;
     font-family: "Lexend Deca", sans-serif;
     color: hsla(0, 0%, 100%, 0.6);
-
     align-items: center;
     margin: 25px;
     font-weight: 400;
     font-size: 18px;
-  }
-  .mobile {
-    display: none;
   }
 
   .lower-content span {
