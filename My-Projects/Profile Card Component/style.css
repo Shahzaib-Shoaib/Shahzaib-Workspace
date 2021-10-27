@@ -22,19 +22,19 @@ body {
 }
 
 .main-container {
-  margin-top: 100px;
+  margin-top: 120px;
   background-color: white;
   position: relative;
   border-radius: 15px;
-  max-width: 400px;
-  height: 450px;
+  width: 375px;
+  height: 425px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .card-upper-side img {
-  width: 400px;
+  width: 375px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
