@@ -26,7 +26,7 @@ body {
   background-color: white;
   position: relative;
   border-radius: 15px;
-  width: 375px;
+  width: 360px;
   height: 425px;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ body {
 }
 
 .card-upper-side img {
-  width: 375px;
+  width: 360px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
