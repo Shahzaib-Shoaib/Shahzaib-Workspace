@@ -16,7 +16,7 @@ body {
 .bg-top-mobile {
   display: none;
 }
-.container {
+main {
   position: relative;
 }
 
@@ -148,7 +148,7 @@ body {
   position: absolute;
 }
 @media only screen and (max-width: 1270px) {
-  .container {
+  main {
     display: flex;
     flex-direction: column;
     justify-content: center;
