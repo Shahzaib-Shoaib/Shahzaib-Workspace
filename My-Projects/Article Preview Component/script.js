@@ -1,13 +1,16 @@
 const open = document.getElementById('open');
+const box = document.getElementById('box');
 
 open.addEventListener('click',checkClass);
 
 function addClass() {
   open.classList.add('opened');
+  box.classList.add('show');
 }
 
 function removeClass() {
   open.classList.remove('opened');
+  box.classList.remove('show');
 
 }
 
