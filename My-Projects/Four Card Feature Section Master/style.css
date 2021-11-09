@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.first-heading {
+  font-weight: 200;
+  //color: hsl(229, 6%, 66%);
+  color: hsl(234, 12%, 34%);
+}
+
+.second-heading {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.head {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.containers {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-heading {
+  display: flex;
+  margin-left: 20px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+.container-para {
+  display: flex;
+  margin-left: 20px;
+  width: 300px;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+
+.container-img {
+  margin-top: 45px;
+  margin-left: 230px;
+}
+
+.first,
+.fourth {
+  border-radius: 10px;
+  width: 400px;
+  height: 270px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+  margin-top: 100px;
+  background-color: white;
+}
+
+.second,
+.third {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+  width: 400px;
+  height: 270px;
+  margin: 0 20px;
+  background-color: white;
+}
+
+.first {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.second {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.third {
+  border-top: 3px solid hsl(34, 97%, 64%);
+
+  margin-top: 30px;
+}
+
+.fourth {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+@media only screen and (max-width: 1270px) {
+  body {
+    justify-content: center;
+    display: flex;
+  }
+  main {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .containers {
+    display: flex;
+    flex-direction: column;
+  }
+  .head {
+    padding: 0px 35px;
+    margin-bottom: 60px;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth {
+    margin: 10px 20px;
+    width: 350px;
+    height: 250px;
+  }
+
+  .container-img {
+    margin-top: 20px;
+  }
+
+  .first-heading,
+  .second-heading {
+    font-size: 28px;
+  }
+}
