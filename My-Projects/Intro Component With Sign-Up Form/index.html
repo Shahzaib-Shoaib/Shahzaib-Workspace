@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Intro Component With Sign-Up Form</title>
+</head>
+<body>
+    <img src="./images/bg-intro-desktop.png" alt="" class="bg-desktop">
+    <img src="./images/bg-intro-mobile.png" alt="" class="bg-mobile">
+    <main>
+        <div class="left-container">
+            <h1 class="heading">Learn to code by watching others</h1>
+            <p class="left-para">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable.</p>
+
+        </div>
+        <div class="right-container">
+            <p class="right-para"><span> Try it free 7 days</span> then $20/mo. thereafter  </p>
+
+            <div class="container">
+                <form id="form" class="form">
+                    <div class="form-control">
+                        <input type="text" id="firstname" placeholder="First Name">
+                        <small>First Name cannot be empty</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id="lastname" placeholder="Last Name">
+                        <small>Last Name cannot be empty</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id="email" placeholder="Email Address">
+                        <small>Looks like this is not an email</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="password" id="password" placeholder="Password">
+                        <small>Password cannot be empty</small>
+                    </div>
+                  
+                    <button>Claim Your Free Trial</button>
+                    <p class="last-para">  By clicking the button, you are agreeing to our <span> Terms and Services </span></p>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    
+</body>
+<script src="./script.js"></script>
+
+</html>

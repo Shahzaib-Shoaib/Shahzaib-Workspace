@@ -11,17 +11,17 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Desaturated Red: hsl(0, 36%, 70%)
-- Soft Red: hsl(0, 93%, 68%)
+- Red: hsl(0, 100%, 74%)
+- Green: hsl(154, 59%, 51%)
+
+### Accent
+
+- Blue: hsl(248, 32%, 49%)
 
 ### Neutral
 
-- Dark Grayish Red: hsl(0, 6%, 24%)
-
-### Gradients
-
-- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
-- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+- Dark Blue: hsl(249, 10%, 26%)
+- Grayish Blue: hsl(246, 25%, 77%)
 
 ## Typography
 
@@ -31,5 +31,5 @@ The designs were created to the following widths:
 
 ### Font
 
-- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
-- Weights: 300, 400, 600
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 500, 600, 700
