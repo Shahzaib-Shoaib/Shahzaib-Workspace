@@ -11,24 +11,25 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
+- Desaturated Red: hsl(0, 36%, 70%)
+- Soft Red: hsl(0, 93%, 68%)
 
 ### Neutral
 
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%)
+- Dark Grayish Red: hsl(0, 6%, 24%)
+
+### Gradients
+
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 15px
+- Font size: 16px
 
-### Fonts
+### Font
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 200, 400, 600
+- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
+- Weights: 300, 400, 600
