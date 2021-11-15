@@ -136,6 +136,9 @@ main {
 }
 
 @media only screen and (max-width: 1200px) {
+  body {
+    margin: 0;
+  }
   main {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -144,8 +147,14 @@ main {
     display: none;
   }
   .bg-mobile {
-    display: flex;
     position: absolute;
     width: 100vh;
   }
+  .left-container {
+    margin: 0;
+  }
+  .right-container {
+    margin: 0;
+  }
 }
+ß
