@@ -178,11 +178,33 @@ main {
   } */
 
 @media only screen and (max-width: 500px) {
+  body {
+    margin: 20px 0;
+  }
   main {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+  .left-container {
+    text-align: center;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .right-para {
+    padding: 20px;
+    width: 200px;
+    margin: 40px 140px;
+  }
   .bg-desktop {
     display: none;
+  }
+  .bg-mobile {
+    display: block;
+    position: absolute;
+  }
+  .container {
+    width: 450px;
+    margin: 0 20px;
   }
 }
