@@ -45,3 +45,46 @@
   padding: 0 1rem;
   margin-left: 0.5rem;
 }
+
+@media only screen and (max-width: 1185px) {
+  .header {
+    padding: 0 10px;
+  }
+  .header li {
+    margin-left: 1rem;
+  }
+  .header a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .logo {
+    display: none;
+  }
+  .header {
+    padding: 0 3px;
+    height: 4rem;
+  }
+  .header li {
+    margin-left: 20px;
+  }
+
+  .header a {
+    font-size: 18px;
+  }
+  .badge {
+    padding: 0 0.5rem;
+    margin-left: 3px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .header a {
+    font-size: 13px;
+  }
+
+  .header li {
+    margin-left: 8px;
+  }
+}
