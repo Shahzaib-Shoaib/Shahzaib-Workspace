@@ -42,7 +42,7 @@ export async function getProductsInCollection() {
                 amount
               }
             }
-            images(first: 5) {
+            images(first: 7) {
               edges {
                 node {
                   originalSrc
@@ -93,7 +93,7 @@ export async function getProduct(handle) {
     	collections(first: 1) {
       	edges {
           node {
-            products(first: 5) {
+            products(first: 7) {
               edges {
                 node {
                   priceRange {
@@ -104,7 +104,7 @@ export async function getProduct(handle) {
                   handle
                   title
                   id
-                  images(first: 5) {
+                  images(first: 7) {
                     edges {
                       node {
                         originalSrc
@@ -122,7 +122,7 @@ export async function getProduct(handle) {
       title
       handle
       description
-      images(first: 5) {
+      images(first: 7) {
         edges {
           node {
             originalSrc
