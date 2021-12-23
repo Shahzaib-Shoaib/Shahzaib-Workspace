@@ -10,7 +10,7 @@ const navigation = [
   { name: "Company", href: "#" },
 ];
 
-export default function Example() {
+export default function Hero() {
   return (
     <div className='relative bg-white overflow-hidden'>
       <div className='max-w-7xl mx-auto'>
@@ -30,16 +30,19 @@ export default function Example() {
               <h1 className='text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl'>
                 <span className='block xl:inline'>
                   Premium{" "}
-                  <span className='block  bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 xl:inline'>
+                  <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-4xl sm:text-6xl md:text-7xl'>
                     Dish Washing
                   </span>{" "}
                   Towels
                 </span>{" "}
               </h1>
               <p className='mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                BerryBerri is high quality absorbing reusable dish washing
+                cloth.
+                <br />
+                <br />
+                With a variety of colors, choose the perfect shade to match your
+                kitchenware.
               </p>
               <div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
                 <div className='rounded-md shadow'>
