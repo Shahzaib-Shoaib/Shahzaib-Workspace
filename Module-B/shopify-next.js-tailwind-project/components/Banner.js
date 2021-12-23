@@ -14,7 +14,9 @@ export default function Banner() {
               />
             </span>
             <p className='ml-3 font-medium text-white truncate'>
-              <span className='md:hidden'>We announced a new product!</span>
+              <span className='md:hidden'>
+                Free shipping over $70 + Free returns!
+              </span>
               <span className='hidden md:inline'>
                 Free shipping over $70 + Free returns!
               </span>
@@ -34,7 +36,7 @@ export default function Banner() {
               className='-mr-1 flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2'
             >
               <span className='sr-only'>Dismiss</span>
-              <XIcon className='h-6 w-6 text-white' aria-hidden='true' />
+              {/* <XIcon className='h-6 w-6 text-white' aria-hidden='true' /> */}
             </button>
           </div>
         </div>
