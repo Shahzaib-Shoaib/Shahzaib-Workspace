@@ -7,6 +7,8 @@ import RecommendedList from "./RecommendedList";
 export default function ProductPageContent({ product }) {
   const images = [];
 
+  console.log(product.description);
+
   product.images.edges.map((image, i) => {
     images.push(
       <SwiperSlide key={`slide-${i}`}>
