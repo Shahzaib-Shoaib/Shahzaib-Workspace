@@ -8,7 +8,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Product", href: "#" },
+  { name: "Product", href: "" },
   // { name: "Marketplace", href: "#" },
   // { name: "Company", href: "#" },
 ];

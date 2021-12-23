@@ -48,7 +48,7 @@ export default function Hero() {
                 <div className='rounded-md shadow'>
                   <a
                     href='#'
-                    className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10'
+                    className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 hover:bg-indigo-700 border-none md:py-4 md:text-lg md:px-10'
                   >
                     Get started
                   </a>
@@ -56,7 +56,7 @@ export default function Hero() {
                 <div className='mt-3 sm:mt-0 sm:ml-3'>
                   <a
                     href='#'
-                    className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10'
+                    className=' bg-pink-100 hover:bg-pink-200 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md   md:py-4 md:text-lg md:px-10'
                   >
                     Live demo
                   </a>
@@ -69,7 +69,7 @@ export default function Hero() {
       <div className='lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2'>
         <img
           className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
-          src='https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80'
+          src='https://media.istockphoto.com/photos/towels-stack-on-table-empty-space-background-picture-id1028686222?k=20&m=1028686222&s=612x612&w=0&h=efd-8IjOOMUopFbg8Jju1HY_A_-dP1m9LdPGwKL_RVA='
           alt=''
         />
       </div>

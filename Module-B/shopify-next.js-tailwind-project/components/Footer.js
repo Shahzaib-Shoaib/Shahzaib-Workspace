@@ -33,7 +33,7 @@ export default function Footer() {
             </svg>
           </div>
           <p className='text-sm leading-none text-gray-800 mt-4'>
-            Copyright © 2021 Luxe
+            Copyright © 2021 BerryBerri
           </p>
           <p className='text-sm leading-none text-gray-800 mt-4'>
             All rights reserved
