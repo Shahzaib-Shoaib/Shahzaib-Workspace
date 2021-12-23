@@ -15,10 +15,10 @@ export default function Banner() {
             </span>
             <p className='ml-3 font-medium text-white truncate'>
               <span className='md:hidden'>
-                Free shipping over $70 + Free returns!
+                Free shipping over &pound;70 + Free returns!
               </span>
               <span className='hidden md:inline'>
-                Free shipping over $70 + Free returns!
+                Free shipping over &pound;70 + Free returns!
               </span>
             </p>
           </div>
