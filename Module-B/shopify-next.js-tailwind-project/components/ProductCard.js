@@ -12,13 +12,8 @@ const ProductCard = ({ product }) => {
     <Link href={`/products/${handle}`}>
       <a className='group'>
         <div className='w-full bg-gray-200 rounded-3xl overflow-hidden '>
-          <div className='relative group-hover:opacity-75 h-72'>
-            <Image
-              src={originalSrc}
-              alt={altText}
-              layout='fill'
-              objectFit='cover'
-            />
+          <div className='relative object-fill group-hover:opacity-75 h-72'>
+            <Image src={originalSrc} alt={altText} layout='fill' />
           </div>
         </div>
         <h3 className='mt-4 text-lg font-medium text-gray-900'>{title}</h3>

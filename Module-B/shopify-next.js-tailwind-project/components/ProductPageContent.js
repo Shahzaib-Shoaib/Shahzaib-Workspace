@@ -16,7 +16,7 @@ export default function ProductPageContent({ product }) {
           src={image.node.originalSrc}
           alt={image.node.altText}
           layout='fill'
-          objectFit='cover'
+          objectFit='fill'
         />
       </SwiperSlide>
     );
