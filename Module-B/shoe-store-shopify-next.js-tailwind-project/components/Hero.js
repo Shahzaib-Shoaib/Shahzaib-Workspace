@@ -63,7 +63,7 @@ export default function Hero() {
       <div className='lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2'>
         <img
           className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
-          src='../assets/'
+          src='https://raw.githubusercontent.com/Shahzaib-Shoaib/Axiom-FSD-Module-1/main/Module-B/shoe-store-shopify-next.js-tailwind-project/assets/Sample%2021.png'
           alt=''
         />
       </div>
