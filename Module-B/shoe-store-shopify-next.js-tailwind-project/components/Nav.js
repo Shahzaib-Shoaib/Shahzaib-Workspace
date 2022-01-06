@@ -10,7 +10,7 @@ import ProductPage from "./ProductPage";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Product", href: "/" },
+  { name: "Product", href: "./ProductPage.js" },
   // { name: "Marketplace", href: "#" },
   // { name: "Company", href: "#" },
 ];
@@ -69,7 +69,7 @@ export default function Nav() {
                     {item.name}
                   </a>
                 ))}
-                <Link href={<ProductPage />}>gjsgjsj</Link>
+
                 {/* <a
                   href='#'
                   className='font-medium text-indigo-600 hover:text-indigo-500'
