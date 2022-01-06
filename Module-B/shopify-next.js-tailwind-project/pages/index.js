@@ -9,7 +9,7 @@ export default function Home({ products }) {
   return (
     <div className=''>
       <Head>
-        <title>eCommerce Store</title>
+        <title>Berry Berri</title>
         <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
         <meta
           httpEquiv='Content-Type'

@@ -6,6 +6,7 @@ import MiniCart from "./MiniCart";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import ProductPage from "./ProductPage";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -68,6 +69,7 @@ export default function Nav() {
                     {item.name}
                   </a>
                 ))}
+                <Link href={<ProductPage />}>gjsgjsj</Link>
                 {/* <a
                   href='#'
                   className='font-medium text-indigo-600 hover:text-indigo-500'
