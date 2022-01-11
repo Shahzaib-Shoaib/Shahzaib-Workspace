@@ -1,7 +1,7 @@
 import { getProductsInCollection } from "../lib/shopify";
-import ProductList from "../components/ProductList";
 import Hero from "../components/Hero";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home({ products }) {
   console.log(products);
@@ -33,8 +33,8 @@ export default function Home({ products }) {
         <meta property='og:locale' content='en_US' />
         <meta property='og:site_name' content='Modern eCommerce Course' />
       </Head>
+
       <Hero />
-      <ProductList products={products} />
     </div>
   );
 }

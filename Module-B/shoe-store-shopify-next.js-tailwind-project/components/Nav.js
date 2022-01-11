@@ -9,7 +9,6 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Product", href: "" },
   // { name: "Marketplace", href: "#" },
   // { name: "Company", href: "#" },
 ];
@@ -59,15 +58,17 @@ export default function Nav() {
                 </div>
               </div>
               <div className='hidden md:block md:ml-10 md:pr-4 md:space-x-8'>
-                {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className='font-medium text-gray-500 hover:text-gray-900'
-                  >
-                    {item.name}
+                <a
+                  href='/'
+                  className='font-medium text-gray-500 hover:text-gray-900'
+                >
+                  Home
+                </a>
+                <Link href='./productpage'>
+                  <a className='font-medium text-gray-500 hover:text-gray-900'>
+                    Products
                   </a>
-                ))}
+                </Link>
 
                 {/* <a
                   href='#'
@@ -105,15 +106,18 @@ export default function Nav() {
                   </div>
                 </div>
                 <div className='px-2 pt-2 pb-3 space-y-1'>
-                  {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'
-                    >
-                      {item.name}
+                  {/* jgjhefhjt */}
+                  <a
+                    href='/'
+                    className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'
+                  >
+                    Home
+                  </a>
+                  <Link href='./productpage'>
+                    <a className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'>
+                      Products
                     </a>
-                  ))}
+                  </Link>
                 </div>
                 {/* <a
                   href='#'
