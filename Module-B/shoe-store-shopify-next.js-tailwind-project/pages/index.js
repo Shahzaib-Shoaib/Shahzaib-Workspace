@@ -2,7 +2,6 @@ import { getProductsInCollection } from "../lib/shopify";
 import ProductList from "../components/ProductList";
 import Hero from "../components/Hero";
 import Head from "next/head";
-import ProductPage from "../components/ProductPage";
 
 export default function Home({ products }) {
   console.log(products);
@@ -36,7 +35,6 @@ export default function Home({ products }) {
       </Head>
       <Hero />
       <ProductList products={products} />
-      <ProductPage />
     </div>
   );
 }

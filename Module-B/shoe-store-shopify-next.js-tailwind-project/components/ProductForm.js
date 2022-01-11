@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
-import { CartContext } from "../context/shopContext";
 import { formatter } from "../utils/helper";
 import ProductOptions from "./ProductOptions";
+import { CartContext } from "../context/shopContext";
 
 export default function ProductForm({ product }) {
   const { addToCart } = useContext(CartContext);
@@ -35,14 +35,11 @@ export default function ProductForm({ product }) {
 
   function setOptions(name, value) {
     setSelectedOptions((prevState) => {
-      return {
-        ...prevState,
-        [name]: value,
-      };
+      return { ...prevState, [name]: value };
     });
 
     const selection = {
-      ...setSelectedOptions,
+      ...selectedOptions,
       [name]: value,
     };
 
@@ -74,7 +71,7 @@ export default function ProductForm({ product }) {
         }}
         className='bg-black rounded-lg text-white px-2 py-3 mt-3 hover:bg-gray-800'
       >
-        Add to Cart
+        Add To Cart
       </button>
     </div>
   );
