@@ -11,25 +11,29 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Violet: hsl(257, 40%, 49%)
-- Soft Magenta: hsl(300, 69%, 71%)
+- Blue: hsl(246, 80%, 60%)
+
+- Light red (work): hsl(15, 100%, 70%)
+- Soft blue (play): hsl(195, 74%, 62%)
+- Light red (study): hsl(348, 100%, 68%)
+- Lime green (exercise): hsl(145, 58%, 55%)
+- Violet (social): hsl(264, 64%, 52%)
+- Soft orange (self care): hsl(43, 84%, 65%)
+
+### Neutral
+
+- Very dark blue: hsl(226, 43%, 10%)
+- Dark blue: hsl(235, 46%, 20%)
+- Desaturated blue: hsl(235, 45%, 61%)
+- Pale Blue: hsl(236, 100%, 87%)
 
 ## Typography
 
-### Headings
+### Body Copy
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 400, 600
+- Font size: 18px (card titles e.g. Work, Play)
 
-### Body
+### Font
 
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400
-
-## Icons
-
-For the social icons, you can use a font icon library. Some suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com/)
-- [IcoMoon](https://icomoon.io/)
-- [Ionicons](https://ionicons.com/)
+- Family: [Rubik](https://fonts.google.com/specimen/Rubik)
+- Weights: 300, 400, 500

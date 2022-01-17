@@ -14,7 +14,7 @@ const Portfolio = (function () {
         weight: 14,
       },
       {
-        text: "node",
+        text: "next",
         weight: 3,
       },
       {
