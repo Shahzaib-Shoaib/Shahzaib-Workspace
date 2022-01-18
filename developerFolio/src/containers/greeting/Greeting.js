@@ -43,7 +43,7 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <Button
                     text="See my websites"
-                    newTab={true}
+                    newTab={false}
                     href={greeting.resumeLink}
                   />
                 )}
