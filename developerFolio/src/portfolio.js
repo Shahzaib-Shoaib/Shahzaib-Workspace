@@ -16,8 +16,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Front End Web Developer 🚀 having an experience of building Web and Mobile websites with JavaScript / Reactjs / Nodejs / Next.js  and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "https://fester-924622-portfolio.netlify.app/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -231,7 +230,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true       CHANGED!!!!!!!
 };
 
 // Achievement Section
@@ -289,7 +288,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true   CHANGED!!!!!!!!!!!!
 };
 
 // Blogs Section
