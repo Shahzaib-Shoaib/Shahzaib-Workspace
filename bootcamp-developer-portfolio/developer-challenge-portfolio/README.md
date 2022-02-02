@@ -1,5 +1,5 @@
 # Portfolio 
-Perfect Portoflio Template to start.
+Perfect Portfolio Template to start.
 Watch my YouTube video to see how to run it.
 Video how to use it:
 https://youtu.be/ddLuZXs8Uyw
