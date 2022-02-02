@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.main {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 80px 200px auto 30px;
+}
+
+.container {
+  background-color: purple;
+}
