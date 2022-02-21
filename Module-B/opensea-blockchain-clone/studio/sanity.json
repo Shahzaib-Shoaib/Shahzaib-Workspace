@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "project": {
+    "name": "Opensea Blockchain Web 3.0"
+  },
+  "api": {
+    "projectId": "lqxng767",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
