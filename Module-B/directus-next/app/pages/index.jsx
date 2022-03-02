@@ -15,22 +15,28 @@ export default function Home() {
   console.log(products)
 
   return (
-    <div className="mx-auto flex max-w-2xl flex-col items-center py-2">
+    <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
       <Head>
         <title>E-Commerce Site</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      {isSuccess &&
-        products.map((product) => (
-          <ProductCard
-            product_name={product.product_name}
-            price={product.price}
-            key={product.id}
-            image={product.product_image.id}
-            category={product.product_categories[0].categories.id.category_name}
-          />
-        ))}
+      <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">
+        Latest products
+      </h2>
+      <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+        {isSuccess &&
+          products.map((product) => (
+            <ProductCard
+              product_name={product.product_name}
+              price={product.price}
+              key={product.id}
+              image={product.product_image.id}
+              category={
+                product.product_categories[0].categories_id.category_name
+              }
+            />
+          ))}
+      </div>
     </div>
   )
 }

@@ -3,18 +3,21 @@ const assetsUrl = process.env.NEXT_PUBLIC_ASSETS_URL
 
 export default function ProductCard({ image, product_name, price, category }) {
   return (
-    <div className="my-2 max-w-xs overflow-hidden rounded shadow-lg">
+    <a href="#" className="group">
       <img
-        className="w-full"
-        src={`${assetsUrl}/${image}`}
-        alt="Sunset in the mountains"
+        className="w-full object-cover object-center group-hover:opacity-75"
+        src={`${assetsUrl}/${image}?width=385&height=385`}
+        alt={product_name}
       />
       <div className="px-6 py-4">
-        <div className="mb-2 text-xl font-bold">{product_name}</div>
-        <p className="text-grey-darker text-base">
-          {price} = {category}
-        </p>
+        <h3 className="mt-0 text-sm text-gray-700">
+          {product_name}
+          <span className="mb-0 ml-2 inline-block rounded-3xl bg-gray-200 px-2 py-1 text-xs text-gray-500">
+            {category}
+          </span>
+        </h3>
+        <p className="mt-1 text-lg font-medium text-gray-900">${price}</p>
       </div>
-    </div>
+    </a>
   )
 }
