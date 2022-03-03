@@ -1,5 +1,7 @@
+/*
 export const HomepagePostsQuery = `
-    query getHomePagePosts {
+    #graphql
+    query HomepagePosts {
         posts {
             id
             title
@@ -10,59 +12,58 @@ export const HomepagePostsQuery = `
             body
         }
     }
-    
-    `
+`
+*/
 export const HomepageProductsQuery = `
-query HomepageProducts {
-    products {
-        id
-        product_name
-        price
-        slug
-        product_image {
+    #graphql
+    query HomepageProducts {
+        products {
             id
-        }
-        category {
-            categories_id {
+            product_name
+            price
+            slug
+            product_image {
                 id
-                category_name
-                slug
+            }
+            product_categories {
+                categories_id {
+                    id
+                    category_name
+                    slug
+                }
             }
         }
     }
-}
-    
-    `
+`
 
 export const HomepageCategoriesQuery = `
-
-query HomepageCategories {
-
-    categories {
-        id
-        category_name
+    #graphql
+    query HomepageCategories {
+        categories {
+            id
+            category_name
+        }
     }
-}
-
- `
+`
 
 export const HomepageFilteredProductsQuery = `
- query HomepageProducts($categories: [Float]) {
-     products(filter: { category: { categories_id: { id: {_in: $categories}} } }) {
-         id
-         product_name
-         price
-         slug
-         product_image {
-             id
-         }
-         category {
-             categories_id {
-                 id
-                 category_name
-                 slug
-             }
-         }
-     }
- }
+    #graphql
+    query HomepageProducts($categories: [Float]) {
+        products(filter: { product_categories: { categories_id: { id: {_in: $categories}} } }) {
+            id
+            product_name
+            price
+            slug
+            product_image {
+                id
+            }
+            product_categories {
+                categories_id {
+                    id
+                    category_name
+                    slug
+                }
+            }
+        }
+    }
 `

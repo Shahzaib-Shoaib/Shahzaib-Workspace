@@ -1,42 +1,40 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import { useQuery } from 'react-query'
+import getData from '../queries/getData'
 import ProductCard from '../components/ProductCard'
 import Filters from '../components/Filters'
-import { useQuery } from 'react-query'
-import {
-  getHomePagePosts,
-  getHomePageProducts,
-  getHomePageCategories,
-  getHomePageFilteredProducts,
-} from '../queries/queries'
 import { useEffect, useState } from 'react'
+import {
+  HomepageCategoriesQuery,
+  HomepageFilteredProductsQuery,
+  HomepageProductsQuery,
+} from '../queries/HomepageQueries'
 
 async function handleProductFiltering({ queryKey }) {
   console.log(queryKey)
   const [_] = queryKey
   if (_.length) {
-    return await getHomePageFilteredProducts(queryKey[0])
+    return await getData(HomepageFilteredProductsQuery, 'products', {
+      categories: queryKey[0],
+    })
   }
 
-  return await getHomePageProducts()
+  return await getData(HomepageProductsQuery, 'products')
 }
 
 export default function Home() {
   const [selectedCategories, setSelectedCategories] = useState([])
-
   const { data: products, isSuccess } = useQuery(
     [selectedCategories],
-    async () => await getHomePageProducts()
+    handleProductFiltering
   )
-
   const { data: categories, isSuccess: categoriesSuccess } = useQuery(
     'categories',
-    async () => await getHomePageCategories()
+    async () => await getData(HomepageCategoriesQuery, 'categories')
   )
 
-  console.log(products, isSuccess)
-
   const getSelectedCategories = (category) => {
+    // console.log(category);
     if (selectedCategories.includes(category)) {
       setSelectedCategories(
         selectedCategories.filter((item) => item !== category)
@@ -74,9 +72,8 @@ export default function Home() {
               price={product.price}
               key={product.id}
               image={product.product_image.id}
-              category={
-                product.product_categories[0].categories_id.category_name
-              }
+              category={product.product_categories[0].categories_id}
+              slug={product.slug}
             />
           ))}
       </div>
