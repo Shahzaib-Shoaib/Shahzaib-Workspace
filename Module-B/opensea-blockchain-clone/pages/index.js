@@ -1,8 +1,8 @@
+import { useWeb3 } from '@3rdweb/hooks'
 import Head from 'next/head'
+import { useEffect } from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
-import { useWeb3 } from '@3rdweb/hooks'
-import { useEffect } from 'react'
 import { client } from '../lib/sanityClient'
 import toast, { Toaster } from 'react-hot-toast'
 
@@ -33,18 +33,17 @@ export default function Home() {
     ;(async () => {
       const userDoc = {
         _type: 'users',
-        _id: 'address',
+        _id: address,
         userName: 'Unnamed',
         walletAddress: address,
       }
 
       const result = await client.createIfNotExists(userDoc)
+
       welcomeUser(result.userName)
     })()
   }, [address])
 
-  const someFunction = () => 2
-  someFunction()
   return (
     <div className={style.wrapper}>
       <Toaster position="top-center" reverseOrder={false} />
@@ -63,8 +62,7 @@ export default function Home() {
             Connect Wallet
           </button>
           <div className={style.details}>
-            You need Chrome to be
-            <br /> able to run this app.
+            You need Chrome to be <br /> able to run this app
           </div>
         </div>
       )}

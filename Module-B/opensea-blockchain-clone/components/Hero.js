@@ -24,10 +24,10 @@ const Hero = () => {
         <div className={style.contentWrapper}>
           <div className={style.copyContainer}>
             <div className={style.title}>
-              Discover, collect, and sell extraordinary NFTs
+              Discover, collect, and sell extraordinary NFT's
             </div>
             <div className={style.description}>
-              OpenSea is the world&apos;s first and largest NFT marketplace
+              Opensea is the world&apos;s first and largest NFT marketplace
             </div>
             <div className={style.ctaContainer}>
               <button className={style.accentedButton}>Explore</button>
@@ -36,9 +36,9 @@ const Hero = () => {
           </div>
           <div className={style.cardContainer}>
             <img
-              className="rounded-t-lg"
               src="https://lh3.googleusercontent.com/ujepnqpnL0nDQIHsWxlCXzyw4pf01yjz1Jmb4kAQHumJAPrSEj0-e3ABMZlZ1HEpJoqwOcY_kgnuJGzfXbd2Tijri66GXUtfN2MXQA=s550"
               alt=""
+              className="rounded-t-lg"
             />
             <div className={style.infoContainer}>
               <img

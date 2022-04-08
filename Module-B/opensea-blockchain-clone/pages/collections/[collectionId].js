@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useMemo } from 'react'
 import { useRouter } from 'next/router'
+import React, { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import { useWeb3 } from '@3rdweb/hooks'
 import { client } from '../../lib/sanityClient'
@@ -40,17 +40,20 @@ const Collection = () => {
   const [nfts, setNfts] = useState([])
   const [listings, setListings] = useState([])
 
+  //
+
   const nftModule = useMemo(() => {
     if (!provider) return
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://eth-rinkeby.alchemyapi.io/v2/NXSwLuBLpgO7UzEPfGAoaeKbMcHmXVKX'
+      'https://eth-rinkeby.alchemyapi.io/v2/O-7xJ8GXK5VgY_8T50aYzM-sOX8qxG0a'
     )
     return sdk.getNFTModule(collectionId)
   }, [provider])
 
-  // get all NFTs in the collection
+  // get all NFT's in the collection
+
   useEffect(() => {
     if (!nftModule) return
     ;(async () => {
@@ -65,15 +68,15 @@ const Collection = () => {
 
     const sdk = new ThirdwebSDK(
       provider.getSigner(),
-      'https://eth-rinkeby.alchemyapi.io/v2/NXSwLuBLpgO7UzEPfGAoaeKbMcHmXVKX'
+      'https://eth-rinkeby.alchemyapi.io/v2/O-7xJ8GXK5VgY_8T50aYzM-sOX8qxG0a'
     )
     return sdk.getMarketplaceModule(
-      // '0x104fc169480c094B4e6ed5Fe3f145a708C54242d'
-      '0x10144493821E3Bb495d7C8BCCc2510770038350F'
+      '0xB93281B6361A75829cCd71d89BEbBFBD72Aa7F21'
     )
   }, [provider])
 
   // get all listings in the collection
+
   useEffect(() => {
     if (!marketPlaceModule) return
     ;(async () => {
@@ -82,21 +85,25 @@ const Collection = () => {
   }, [marketPlaceModule])
 
   const fetchCollectionData = async (sanityClient = client) => {
-    const query = `*[_type == "marketItems" && contractAddress == "${collectionId}" ] {
-      "imageUrl": profileImage.asset->url,
-      "bannerImageUrl": bannerImage.asset->url,
-      volumeTraded,
-      createdBy,
-      contractAddress,
-      "creator": createdBy->userName,
-      title, floorPrice,
-      "allOwners": owners[]->,
-      description
-    }`
+    const query = `
+    *[_type == "marketItems" && contractAddress == "${collectionId}" ] {
+      "imageUrl":profileImage.asset->url,
+      "bannerImageUrl":bannerImage.asset->url,
+       volumeTraded,
+       createdBy,
+       contractAddress,
+       "creator": createdBy->userName,
+       title,
+       floorPrice,
+       "allOwners": owners[]->,
+       description
+       
+     }`
 
     const collectionData = await sanityClient.fetch(query)
 
-    console.log(collectionData, '🔥')
+    console.log(collectionData, ':)))')
+    console.log(nfts, ':((((')
 
     // the query returns 1 object inside of an array
     await setCollection(collectionData[0])
@@ -108,7 +115,6 @@ const Collection = () => {
 
   console.log(router.query)
   console.log(router.query.collectionId)
-  console.log(nfts.length)
   return (
     <div className="overflow-hidden">
       <Header />

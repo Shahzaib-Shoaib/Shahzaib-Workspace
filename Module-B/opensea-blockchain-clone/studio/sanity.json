@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "Opensea Blockchain Web 3.0"
+    "name": "Opensea Clone"
   },
   "api": {
-    "projectId": "lqxng767",
+    "projectId": "8laf1d3q",
     "dataset": "production"
   },
   "plugins": [
