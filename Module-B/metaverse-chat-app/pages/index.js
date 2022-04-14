@@ -8,12 +8,12 @@ export default function Home() {
   if (!isAuthenticated) return <Login />
 
   return (
-    <div className="h-screen">
+    <div className="h-screen ">
       <Head>
         <title>Metaverse Chat App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Welcome to the Metaverse</h1>
+      <h1>Welcome to the Metaverse.</h1>
       <button onClick={logout}>Logout</button>
     </div>
   )
