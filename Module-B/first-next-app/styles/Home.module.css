@@ -108,6 +108,11 @@
   margin-left: 0.5rem;
 }
 
+.navbar li {
+  cursor: pointer;
+  
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -126,4 +131,18 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type:none;
+  justify-content: center;
+  
+
+}
+
+.navbar li {
+  margin: 10px 20px;
+
+
 }
