@@ -7,6 +7,7 @@ function NewHotelForm(props:any) {
   const imageInputRef:any  = useRef();
   const addressInputRef:any  = useRef();
   const descriptionInputRef:any   = useRef();
+  const priceInputRef:any = useRef();
 
   function submitHandler(event:any) {
     event.preventDefault();
@@ -15,12 +16,14 @@ function NewHotelForm(props:any) {
     const enteredImage = imageInputRef.current.value;
     const enteredAddress = addressInputRef.current.value;
     const enteredDescription = descriptionInputRef.current.value;
+    const enteredPrice = priceInputRef.current.value;
 
     const hotelData = {
       title : enteredTitle ,
       image: enteredImage,
       address: enteredAddress,
       description: enteredDescription,
+      price: enteredPrice,
     };
 
     props.onAddHotel(hotelData);
@@ -47,6 +50,10 @@ function NewHotelForm(props:any) {
 <div className="relative mb-4">
   <label  className="leading-7 text-sm text-gray-600">Image URL</label>
   <input type="url" required id="image" ref={imageInputRef}  className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+</div>
+<div className="relative mb-4">
+  <label  className="leading-7 text-sm text-gray-600">Price</label>
+  <input type="number" required id="price" ref={priceInputRef}  className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
 </div>
 <button className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Add Hotel</button>
 <p className="text-xs text-gray-500 mt-3">**** Terms Apply</p>

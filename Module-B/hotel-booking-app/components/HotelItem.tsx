@@ -15,6 +15,7 @@ function HotelItem(props: any) {
               {props.title}
             </h3>
             <p className="mt-1 text-sm text-gray-700">{props.address}</p>
+            <p className="mt-1 text-sm text-gray-700">${props.price}</p>
           </a>
    
   );
