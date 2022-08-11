@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { useState, useEffect } from "react";
 import HotelList from "../components/HotelList";
 
@@ -38,6 +39,7 @@ function allHotels() {
   }
 
   return (
+  
    
       <HotelList hotels={loadedHotels} />
 
