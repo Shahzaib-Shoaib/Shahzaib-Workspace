@@ -1,5 +1,6 @@
 import HotelItem from "./HotelItem";
 function HotelList(props: any) {
+  const images = [];
   return (
     <div className="bg-white ">
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -9,7 +10,7 @@ function HotelList(props: any) {
             <HotelItem
               key={hotel.id}
               id={hotel.id}
-              image={hotel.image}
+              images={hotel.images}
               title={hotel.title}
               address={hotel.address}
               description={hotel.description}

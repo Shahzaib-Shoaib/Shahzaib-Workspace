@@ -18,7 +18,7 @@ function NewHotelPage() {
       }
     ).then(() => {
       // navigate("/");
-      router.push('/')
+      // router.push('/')
     });
   }
 
