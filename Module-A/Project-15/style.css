@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:black;
+}
+
+html {
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+    height: 100vh;
+    position: relative;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 50%; 
+    height: 100%;
+    width: 900px;
+    background: white;
+    background-attachment: fixed;
+    z-index: -1;
+    transform: translateX(-50%);
+    
+}
+
+/* UTILITY */
+.p-small {
+    padding-bottom: 5px;
+}
+.p-medium {
+    padding-bottom: 10px;
+}
+.p-y {
+    padding: 10px 0;
+}
+.m-y {
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+header .container{
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #dcdde1;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: black;
+    padding-bottom: 30px;
+}
+
+form input,
+form button {
+    outline: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-family: inherit;
+}
+form input {
+    width: 50%;
+    border-radius: 8px;
+    margin-right: 3px;
+}
+
+form input:focus{
+    border:1px solid transparent;
+}
+
+form button {
+    background-color: #9C88FF;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+form button:hover {
+    border: 1px solid transparent;
+}
+
+form button:focus {
+    border: 1px solid transparent;
+}
+
+section .container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.songs {
+    width: 70%;
+    list-style: none;
+    margin:0 auto;
+    padding: 2rem 0;
+}
+
+.songs li {
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.songs li span{
+    font-size: 15px;
+    margin:12px;
+    background-color: #9C88FF;
+    color:white;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.song-title {
+    font-size:24px;
+    margin-bottom:8px;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+h2 {
+    display: inline-block;
+    padding: 14px 20px 14px 20px;
+    border-radius: 8px ;
+    box-shadow: 0 10px 15px -3px;
+    background-color: rgba(17, 24, 39, 1);
+    color: white;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px ;
+    margin-bottom: 50px ;
+    align-items:center;
+}
+.container {
+    height:440px;
+    width: 380px;
+    box-shadow: 0 10px 15px -3px;
+    background-color: rgba(31, 41, 55, 1);	
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.album-art {
+    position: relative;
+    width: 150px;
+   
+}
+
+.album-art img {
+    height: 280px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgba(17, 24, 39, 1);
+    width:380px;
+    height:80px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.nav-btn {
+    background-color: rgba(17, 24, 39, 1);
+    border:none;
+    color:white;
+    padding: 14px;
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-btn-large {
+    font-size: 26px;
+}
+.info h4 {
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+    font-weight: 200;
+}
+
+.info h5 {
+    margin-bottom:10px;
+    color: rgba(156, 163, 175, 1);	
+    font-weight: 200;
+}
+small {
+    margin-left:90%;
+    color: rgba(156, 163, 175, 1);	
+    font-weight: 200;
+}
+
+h1 {
+    margin-bottom: 100px;
+}
+
+.progress {
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0 ;
+    height: 5px;
+    width: 100%;
+    margin-bottom:2px;
+}
+
+.progress-bar {
+    background-color: #d4e157;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}

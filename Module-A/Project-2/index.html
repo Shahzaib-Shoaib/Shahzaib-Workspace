@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Movie Seat Selection</title>
+</head>
+<body>
+    <h1>Seat-Selector</h1>
+    <!-- Container for movies -->
+    <div class="movie-container">
+        <label for="movie">Please pick a movie:</label>
+        <!-- This is the dropdown to select movies -->
+        <select id="movie">
+            <option value="20">Godzilla vs Kong</option>
+            <option value="30">Mortal Combat</option>
+            <option value="25">A Quite Place Pt-II</option>
+            <option value="50">Venom: Let There Be Carnage</option>
+            <option value="65">Top Gun: Maverick</option>
+            <option value="55">No Time To Die</option>
+        </select>
+    </div>
+
+    <!-- Legend to display types of seats -->
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Available</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Occupied</small>
+        </li>
+    </ul>
+
+    <!-- Container for Theater Seating Map -->
+    <div class="container">
+        <!-- This is the class to show the Movie Screen -->
+        <div class="screen"></div>
+        <!-- 6 Rows x 8 Columns Seating Chart -->
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+
+    <p class="text">You have selected <span id="count">0</span> seats for a total price of $<span id="total">0</span>.</p>
+
+    <button class="cta-btn" id="open"> Book Now </button>
+
+     
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Details</h3>
+            </div>
+            <div class="modal-content">
+                <p>Enter Your Details</p>
+                <form id="form" class="form">
+                    <div class="form-control">
+                        <label for="username">Name</label>
+                        <input type="text" id="username" placeholder="Enter Name">
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter email">
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter password">
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="ConfirmPassword">Confirm Password</label>
+                        <input type="password" id="ConfirmPassword" placeholder="Enter password">
+                        <small>Error message</small>
+                    </div>
+                    <button class="cta-btn" id="open-card"> Submit </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="card-container" id="card">
+        <div class="card">
+            <button class="close-btn" id="close-card">
+                <i class="fa fa-times"></i>
+            </button>
+        <div id='upper-side'>
+            <i class="fa fa-check"></i>
+            <h3 id='status'> Success </h3> 
+         </div>
+        <div id='lower-side'>
+          <p id='message'>
+            Congratulations, You have booked your seats ..
+          </p>
+          <a href="#" id="contBtn">Continue</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
