@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+
+.container {
+  display: grid;
+  //grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 0px;
+
+  grid-template-columns: 280px 450px;
+  grid-auto-flow: row;
+}
+
+.left-side {
+  margin: 0;
+}
+
+.left-side img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 280px;
+  height: 100%;
+}
+
+.right-side {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0px 50px;
+  background-color: white;
+}
+
+.head {
+  font-weight: 700;
+  font-size: 22px;
+  color: hsl(217, 19%, 35%);
+}
+
+.para {
+  font-weight: 700;
+  font-size: 13px;
+  color: hsl(214, 17%, 51%);
+}
+
+.profile {
+  display: flex;
+  margin: 20px 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  margin: 10px 20px;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+  font-size: 13px;
+}
+
+.date {
+  margin: -8px 18px;
+  font-weight: 500;
+  color: hsl(212, 23%, 69%);
+  font-size: 13px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.share {
+  padding: 10px 10px;
+  position: relative;
+  top: -15px;
+  margin: -10px 0px 10px 270px;
+  border-radius: 50%;
+  color: hsl(214, 17%, 51%);
+  background-color: hsl(210, 46%, 95%);
+}
+
+.opened {
+  background-color: hsl(214, 17%, 51%);
+  color: hsl(210, 46%, 95%);
+}
+
+.comment-box {
+  display: none;
+  flex-direction: row;
+  background-color: hsl(217, 19%, 35%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  position: relative;
+  padding: 0 15px;
+  color: white;
+  border-radius: 15px;
+  top: -56px;
+  left: -120px;
+}
+
+.show {
+  display: flex;
+}
+
+.bio {
+  margin: 0px 0px -10px 0px;
+}
+
+.comment-box i {
+  margin-top: 14px;
+  margin-left: 18px;
+  color: white;
+  font-size: 15px;
+}
+
+.comment-box p {
+  font-size: 13px;
+  margin-left: 10px;
+  color: hsl(212, 23%, 69%);
+}
+
+.comment-box::after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  bottom: -15px;
+  left: 50%;
+  background-color: hsl(217, 19%, 35%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+.share-btn-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  main {
+    margin-top: 50px;
+  }
+
+  .head {
+    padding: 0 10px;
+    font-size: 17px;
+  }
+  .para {
+    padding: 0 10px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-side {
+    margin: 0;
+  }
+  .left-side img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+
+    border-bottom-left-radius: 0px;
+    width: 360px;
+    height: 300px;
+  }
+
+  .right-side {
+    width: 360px;
+    padding: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .profile {
+    margin: 20px;
+  }
+  .show {
+    display: none;
+  }
+  .share {
+    margin-left: 210px;
+  }
+
+  .bio-mobile {
+    display: none;
+    flex-direction: row;
+    background-color: hsl(217, 19%, 35%);
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .share-btn-mobile {
+    display: flex;
+    margin-left: 15px;
+    color: hsl(212, 23%, 69%);
+    flex-direction: row;
+  }
+  .share-btn-mobile i {
+    margin-top: 18px;
+    margin-left: 18px;
+    color: white;
+    font-size: 18px;
+  }
+
+  .share-btn-mobile p {
+    font-size: 16px;
+    margin-left: 10px;
+    color: hsl(212, 23%, 69%);
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .share-mobile {
+    padding: 8px;
+    position: relative;
+    top: -8px;
+    left: 80px;
+    border-radius: 50px;
+    background-color: hsl(214, 17%, 51%);
+    color: hsl(210, 46%, 95%);
+  }
+  .show-mobile {
+    display: flex;
+  }
+}
