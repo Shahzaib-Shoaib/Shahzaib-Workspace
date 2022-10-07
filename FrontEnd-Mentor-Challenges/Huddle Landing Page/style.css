@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(257, 40%, 49%);
+  margin: 40px 0;
+  color: white;
+  background-image: url("./images/bg-desktop.svg");
+}
+
+main {
+  display: grid;
+  margin-top: 70px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-flow: row;
+}
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img.logo {
+  width: 200px;
+  margin-left: 30px;
+}
+
+.main-img {
+  width: 600px;
+}
+
+.right-side {
+  margin-left: 30px;
+}
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  width: 375px;
+  color: white;
+}
+.para {
+  color: white;
+  width: 465px;
+}
+button {
+  color: hsl(300, 69%, 71%);
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 30px;
+}
+i {
+  color: white;
+  border: 1px solid white;
+  padding: 14px;
+  border-radius: 50%;
+  margin-left: 2px;
+}
+.icons {
+  margin-left: 85%;
+}
+
+@media only screen and (max-width: 1100px) {
+  main {
+    display: flex;
+    /* grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-auto-flow: column; */
+    flex-direction: column;
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .main-img {
+    width: 90%;
+  }
+  .heading,
+  .para {
+    width: 90%;
+    text-align: center;
+  }
+
+  .icons {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}
+/*  
+@media only screen and (max-width: 650px) {
+  .main-img {
+    width: 90%;
+  }
+
+  .right-side {
+    margin-left: 0px;
+  }
+  .heading {
+    display: flex;
+    font-size: 30px;
+    width: 365px;
+  }
+  .para {
+    width: 465px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main-img {
+    width: 80%;
+  }
+  .heading {
+    width: 100%;
+    margin: 30px;
+  }
+} */

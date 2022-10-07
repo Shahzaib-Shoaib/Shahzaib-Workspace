@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  padding: 15px;
+  margin-top: 60px;
+  width: 300px;
+  border-radius: 10px;
+}
+.imageBox {
+  position: relative;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 130px;
+  top: 135px;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+
+.image {
+  //display: none;
+  width: 300px;
+  height: 290px;
+}
+.image:hover {
+  filter: opacity(0.5) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+}
+
+.title {
+  color: white;
+}
+
+.para,
+.time {
+  color: hsl(215, 51%, 70%);
+}
+.time {
+  position: relative;
+  top: -3px;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  position: relative;
+  top: -3px;
+  color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.right-side {
+  margin-left: 100px;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+
+  flex-direction: row;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+.creator {
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.creator span {
+  color: white;
+}
+
+.creator span:hover {
+  color: hsl(178, 100%, 50%);
+}

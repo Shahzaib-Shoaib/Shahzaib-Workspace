@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+body {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: flex;
+  justify-content: center;
+  height: 85.5vh;
+  margin-top: 100px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+main {
+  background-color: white;
+  border-radius: 15px;
+  width: 950px;
+  height: 500px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+}
+
+.desktop {
+  margin-top: 60px;
+  height: 350px;
+  margin-left: -60px;
+}
+.desktop-bg {
+  width: 600px;
+  margin: 0 -600px;
+  position: absolute;
+  height: 500px;
+}
+
+.block {
+  position: absolute;
+  margin-top: 190px;
+  margin-left: -100px;
+}
+
+.mobile,
+.mobile-img {
+  display: none;
+}
+.right-side {
+  margin: 40px 100px 0px 10px;
+}
+h1 {
+  padding-bottom: 10px;
+}
+
+.question {
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+  padding-bottom: 10px;
+  color: hsl(240, 6%, 50%);
+  font-weight: 400;
+}
+
+.answer {
+  display: none;
+}
+
+.arrow {
+  border: none;
+  background-color: white;
+}
+
+.invert {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.bold {
+  color: hsl(237, 12%, 33%);
+  font-weight: 700;
+}
+.show {
+  display: block;
+  font-weight: 400;
+  color: hsl(240, 6%, 50%);
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    margin: 0;
+    margin-top: 150px;
+    justify-content: center;
+  }
+
+  .desktop,
+  .block {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    width: 300px;
+    margin: -130px 40px 0px 40px;
+    position: absolute;
+  }
+
+  .mobile-img {
+    display: block;
+    width: 300px;
+    margin: -10px 40px 0px 40px;
+    position: absolute;
+  }
+
+  main {
+    width: 380px;
+    height: 550px;
+  }
+  .container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    text-align: center;
+    margin: 0px 10px;
+  }
+  .desktop-bg {
+    display: none;
+  }
+
+  .answer {
+    margin: 0px 20px;
+  }
+  .right-side {
+    margin: 0;
+    margin-top: 120px;
+  }
+}
