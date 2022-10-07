@@ -14,7 +14,7 @@ const Home: NextPage = ({}) => {
 	return (
 		<ShopLayout title="Teslo - Home" pageDescription="Teslo Home">
 			<h1 className="font-semibold text-3xl md:text-4xl">Teslo Store</h1>
-			<h2 className=" text-xl ">All Products</h2>
+			<h2 className=" text-xl ">All Products.</h2>
 			<ProductList products={data?.products.nodes!} />
 		</ShopLayout>
 	);
