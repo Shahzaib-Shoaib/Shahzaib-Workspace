@@ -1,5 +1,7 @@
-[submodule "./Axiom-Module-A"]
+[submodule "Axiom-Module-A"]
         path = Axiom-Module-A
+        url = https://somesite.tld/user/repository.git
+
 
 [submodule "./FrontEnd-Mentor-Challenges"]
         path = FrontEnd-Mentor-Challenges
