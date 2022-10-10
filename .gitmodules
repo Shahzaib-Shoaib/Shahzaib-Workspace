@@ -1,0 +1,13 @@
+[submodule "./Axiom-Module-A"]
+        path = Axiom-Module-A
+
+[submodule "./FrontEnd-Mentor-Challenges"]
+        path = FrontEnd-Mentor-Challenges
+
+
+[submodule "./Next-JS-Projects"]
+        path = Next-JS-Projects
+
+
+[submodule "./React-JS-Project"]
+        path = React-JS-Project
