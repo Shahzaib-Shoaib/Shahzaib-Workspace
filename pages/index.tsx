@@ -35,8 +35,7 @@ const Home: NextPage = () => {
                 <p className="text-xs uppercase mt-8 mx-0 -mb-[0.1em] font-medium text-[#55198b]">Web</p>
                 <p className="icons"><i className=" text-[#55198b] mr-4 fi-monitor"></i><i className=" text-[#55198b] mr-4 fi-tablet-portrait"></i><i className=" text-[#55198b] mr-4 fi-mobile"></i></p>
                 <p className="text-[#738182] font-medium text-xl mb-7">Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.</p>
-                <a className=" text-white text-base uppercase font-black tracking-normal rounded-[45px] h-auto py-[0.8em] px-[2.1em] bg-[#55198b] " href="./Axiom-Module-A/Project-1/index.html">Visit Website</a>
-
+                <a className=" text-white text-base uppercase font-black tracking-normal rounded-[45px] h-auto py-[0.8em] px-[2.1em] bg-[#55198b] " href="../Axiom-Module-A/Project-1/index.html">Visit Website</a>
               </div>
             </div>
           </div>
