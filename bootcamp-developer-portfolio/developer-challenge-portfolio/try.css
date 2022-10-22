@@ -7,6 +7,7 @@ body {
   background-color: #e3e3e3;
   margin: 0;
   padding: 0;
+  line-height:1.5;
 }
 
 html {
@@ -111,6 +112,7 @@ h3 {
   font-weight: 500;
   font-size: 1.2em;
   margin-bottom: 1.8em;
+  line-height:1.6;
 }
 
 .details a,
@@ -216,10 +218,6 @@ img {
 }
 
 @media print, screen and (min-width: 40em) {
-  .row .row {
-    margin-right: -0.9375rem;
-    margin-left: -0.9375rem;
-  }
   .medium-6 {
     width: 50%;
   }
@@ -250,11 +248,5 @@ img {
   }
   h3 {
     font-size: 1.9375rem;
-  }
-}
-@media print, screen and (min-width: 64em) {
-  .row .row {
-    margin-right: -0.9375rem;
-    margin-left: -0.9375rem;
   }
 }
