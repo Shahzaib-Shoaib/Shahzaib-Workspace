@@ -2,6 +2,22 @@
 [
   {
     "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Ecommerce-Page.png",
+    "detailsClass": "oddDetails",
+    "name": "Ecommerce Page",
+    "detail": "Modern Ecommerce Project made with Next.JS, Tailwind CSS and Shopify Partners. A project idea from BuildNextShop Crash Course.",
+    "linkUrl": "https://fester-924622.vercel.app/"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/chawkbazaar.png",
+    "detailsClass": "evenDetails",
+    "name": "ChawkBazaar",
+    "detail": "ChawkBazaar Ecommerce Store made with NextJS, Tailwind and Rest API. A project theme from themeforest.",
+    "linkUrl": "https://babuska-924622.vercel.app/"
+  },
+  {
+    "imgClass": " oddImg ",
     "imgSrc": "./Captures/HTML-Form.png",
     "detailsClass": "oddDetails",
     "name": "HTML Form",
@@ -11,9 +27,17 @@
   {
     "imgClass": "evenImg",
     "imgSrc": "./Captures/Seat-Selector.png",
-    "detailsClass": "evenDetails small-12 medium-5 medium-offset-1 columns",
+    "detailsClass": "evenDetails",
     "name": "Seat Selector",
     "detail": "A Seat Selector made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
     "linkUrl": "../Axiom-Module-A/Project-2/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/HTML-Form.png",
+    "detailsClass": "oddDetails",
+    "name": "HTML Form",
+    "detail": "Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-1/index.html"
   }
 ]
