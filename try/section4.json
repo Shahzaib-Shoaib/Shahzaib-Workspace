@@ -1,0 +1,18 @@
+[
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/HTML-Form.png",
+    "detailsClass": "oddDetails",
+    "name": "Zitiiiiiiiiiiii Form",
+    "detail": "Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-1/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Seat-Selector.png",
+    "detailsClass": "evenDetails small-12 medium-5 medium-offset-1 columns",
+    "name": "Seat Selector",
+    "detail": "A Seat Selector made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-2/index.html"
+  }
+]
