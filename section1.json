@@ -1,0 +1,44 @@
+
+[
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Ecommerce-Page.png",
+    "detailsClass": "oddDetails",
+    "name": "Ecommerce Page",
+    "detail": "Modern Ecommerce Project made with Next.JS, Tailwind CSS and Shopify Partners. A project idea from BuildNextShop Crash Course.",
+    "linkUrl": "https://fester-924622.vercel.app/"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/chawkbazaar.png",
+    "detailsClass": "evenDetails",
+    "name": "ChawkBazaar",
+    "detail": "ChawkBazaar Ecommerce Store made with NextJS, Tailwind and Rest API. A project theme from themeforest.",
+    "linkUrl": "https://babuska-924622.vercel.app/"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Meetups-Page.png",
+    "detailsClass": "oddDetails",
+    "name": "Meetups Page",
+    "detail": "Meetups Page made with HTML,CSS,React JS and Firebase. A project idea from Academind React Crash Course.",
+    "linkUrl": "https://fester-924622-react-meetups.netlify.app/"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/GitHub-Finder.png",
+    "detailsClass": "evenDetails",
+    "name": "Github Finder",
+    "detail": "Github Finder made with HTML,CSS,React JS and API. A project from Axiom FSD Module-B.",
+    "linkUrl": "https://fester-924622-github-finder.netlify.app/"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Cinema-Landing-Page.png",
+    "detailsClass": "oddDetails",
+    "name": "Cinema Landing Page",
+    "detail": "Cinema Landing Page made with HTML,Tailwind CSS and JS. A project from Tailwind Labs.    ",
+    "linkUrl": "https://fester-924622-cinema-landing-page.netlify.app/"
+  }
+ 
+]

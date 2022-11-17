@@ -1,0 +1,124 @@
+[
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Order-Summary.png",
+    "detailsClass": "oddDetails",
+    "name": "Order Summary",
+    "detail": "Order Summary Page made with HTML and Taiwind CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../Tailwind-Projects/Order-Summary-Page/public/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Stats-Preview-Card-Component.png",
+    "detailsClass": "evenDetails ",
+    "name": "Stats Preview Card",
+    "detail": "Stats Preview Card made with HTML and CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Stats-preview-card-component/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/3-Column-Preview-Card-Component.png",
+    "detailsClass": "oddDetails",
+    "name": "3 Column preview card component ",
+    "detail": "3 Column preview card component made with HTML and CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/3-Column preview card component/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Profile-Card-Component.png",
+    "detailsClass": "evenDetails ",
+    "name": "Profile Card Component",
+    "detail": "Profile Card Component made with HTML and CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Profile-Card-Component/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/FAQ-Accordion-Card.png",
+    "detailsClass": "oddDetails",
+    "name": "FAQ Accordian Menu ",
+    "detail": "FAQ Accordian Menu made with HTML,CSS and JS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/FAQ-Accordian-Card-Menu/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Social-Proof-Section.png",
+    "detailsClass": "evenDetails ",
+    "name": "Social Proof Section",
+    "detail": "Social Proof Section made with HTML and CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Social-Proof-Section/index.html"
+  },
+  {
+    "imgClass": "oddImg",
+    "imgSrc": "./Captures/Article-Preview-Component.png",
+    "detailsClass": "oddDetails ",
+    "name": "Article Preview Component",
+    "detail": "Article Preview Component made with HTML,CSS and JS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Article-Preview-Component/index.html"
+  },
+  {
+    "imgClass": " evenImg ",
+    "imgSrc": "./Captures/Four-Card-Feature-Section.png",
+    "detailsClass": "evenDetails",
+    "name": "Four Card Feature Section  ",
+    "detail": "Four Card Feature Section made with HTML and CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Four-Card-Feature-Section/index.html"
+  },
+  {
+    "imgClass": "oddImg",
+    "imgSrc": "./Captures/Base-Apparel-Coming-Soon-Page.png",
+    "detailsClass": "oddDetails ",
+    "name": "Base Apparel Coming Soon Page ",
+    "detail": "Base Apparel Coming Soon Page made with HTML,CSS and JS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Base-Apparel-Coming-Soon/index.html"
+  },
+  {
+    "imgClass": " evenImg ",
+    "imgSrc": "./Captures/Signup-Form-Component.png",
+    "detailsClass": "evenDetails",
+    "name": "Intro Component With Sign Up Form ",
+    "detail": "Intro Component With Sign Up Form made with HTML,CSS and JS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Intro-Component-With-SignUp-Form/index.html"
+  },
+  {
+    "imgClass": "oddImg",
+    "imgSrc": "./Captures/Single-Price-Grid.png",
+    "detailsClass": "oddDetails ",
+    "name": "Single Price Grid Component",
+    "detail": "Single Price Grid Component made with HTML and CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Single-Price-Grid-Component/index.html"
+  },
+  {
+    "imgClass": " evenImg ",
+    "imgSrc": "./Captures/NFT-Preview-Card.png",
+    "detailsClass": "evenDetails",
+    "name": "NFT Preview Card Component",
+    "detail": "NFT Preview Card Component made with HTML and CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/NFT-Preview-Card-Component/index.html"
+  },
+  {
+    "imgClass": "oddImg",
+    "imgSrc": "./Captures/Ping-Coming-Soon-Page.png",
+    "detailsClass": "oddDetails ",
+    "name": "Ping Coming Soon Page ",
+    "detail": "Ping Coming Soon Page made with HTML,CSS and JS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Ping-Coming-Soon-Page/index.html"
+  },
+  {
+    "imgClass": " evenImg ",
+    "imgSrc": "./Captures/Huddle-Landing-Page.png",
+    "detailsClass": "evenDetails",
+    "name": "Huddle Landing Page",
+    "detail": "Huddle Landing Page made with HTML and CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/Huddle-Landing-Page/index.html"
+  },
+  {
+    "imgClass": "oddImg",
+    "imgSrc": "./Captures/QR-Code-Component.png",
+    "detailsClass": "oddDetails ",
+    "name": "QR Code Component",
+    "detail": "QR Code Component made with HTML and CSS. A project idea from Frontend Mentor.",
+    "linkUrl": "../FrontEnd-Mentor-Challenges/QR-Code-Component"
+  }
+
+  
+]
