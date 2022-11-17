@@ -1,11 +1,11 @@
 [
   {
     "imgClass": " oddImg ",
-    "imgSrc": "./Captures/HTML-Form.png",
+    "imgSrc": "./Captures/Cinema-Landing-Page.png",
     "detailsClass": "oddDetails",
-    "name": "Zitiiiiiiiiiiii Form",
-    "detail": "Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.",
-    "linkUrl": "../Axiom-Module-A/Project-1/index.html"
+    "name": "Cinema Landing Page",
+    "detail": "Cinema Landing Page made with HTML,Tailwind CSS and JS. A project from Tailwind Labs.    ",
+    "linkUrl": "https://fester-924622-cinema-landing-page.netlify.app/"
   },
   {
     "imgClass": "evenImg",
@@ -14,5 +14,21 @@
     "name": "Seat Selector",
     "detail": "A Seat Selector made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
     "linkUrl": "../Axiom-Module-A/Project-2/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/HTML-Form.png",
+    "detailsClass": "oddDetails",
+    "name": "Zitiiiiiiiiiiii Form",
+    "detail": "Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-1/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/HTML-Form.png",
+    "detailsClass": "oddDetails",
+    "name": "Zitiiiiiiiiiiii Form",
+    "detail": "Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-1/index.html"
   }
 ]

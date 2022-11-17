@@ -18,26 +18,19 @@
   },
   {
     "imgClass": " oddImg ",
-    "imgSrc": "./Captures/HTML-Form.png",
+    "imgSrc": "./Captures/Meetups-Page.png",
     "detailsClass": "oddDetails",
-    "name": "HTML Form",
-    "detail": "Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.",
-    "linkUrl": "../Axiom-Module-A/Project-1/index.html"
+    "name": "Meetups Page",
+    "detail": "Meetups Page made with HTML,CSS,React JS and Firebase. A project idea from Academind React Crash Course.",
+    "linkUrl": "https://fester-924622-react-meetups.netlify.app/"
   },
   {
     "imgClass": "evenImg",
-    "imgSrc": "./Captures/Seat-Selector.png",
+    "imgSrc": "./Captures/GitHub-Finder.png",
     "detailsClass": "evenDetails",
-    "name": "Seat Selector",
-    "detail": "A Seat Selector made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
-    "linkUrl": "../Axiom-Module-A/Project-2/index.html"
-  },
-  {
-    "imgClass": " oddImg ",
-    "imgSrc": "./Captures/HTML-Form.png",
-    "detailsClass": "oddDetails",
-    "name": "HTML Form",
-    "detail": "Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.",
-    "linkUrl": "../Axiom-Module-A/Project-1/index.html"
+    "name": "Github Finder",
+    "detail": "Github Finder made with HTML,CSS,React JS and API. A project from Axiom FSD Module-B.",
+    "linkUrl": "https://fester-924622-github-finder.netlify.app/"
   }
+ 
 ]
