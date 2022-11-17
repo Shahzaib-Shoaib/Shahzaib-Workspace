@@ -3,16 +3,48 @@
     "imgClass": " oddImg ",
     "imgSrc": "./Captures/HTML-Form.png",
     "detailsClass": "oddDetails",
-    "name": "Zitiiiiiiiiiiii Form",
+    "name": "HTML Form",
     "detail": "Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.",
     "linkUrl": "../Axiom-Module-A/Project-1/index.html"
   },
   {
     "imgClass": "evenImg",
     "imgSrc": "./Captures/Seat-Selector.png",
-    "detailsClass": "evenDetails small-12 medium-5 medium-offset-1 columns",
+    "detailsClass": "evenDetails",
     "name": "Seat Selector",
     "detail": "A Seat Selector made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
     "linkUrl": "../Axiom-Module-A/Project-2/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Custom-Video-Player.png",
+    "detailsClass": "oddDetails",
+    "name": "Custom Video Player",
+    "detail": "Custom Video Player made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-3/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Exchange-Rate-Calculator.png",
+    "detailsClass": "evenDetails",
+    "name": "Exchange Rate Calculator",
+    "detail": "An Exchange Rate Calculator made with HTML,CSS,JS and API. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-4/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/DOM-Array-Method.png",
+    "detailsClass": "oddDetails",
+    "name": "DOM Array",
+    "detail": "DOM Array made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-5/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Landing-Page.png",
+    "detailsClass": "evenDetails",
+    "name": " Landing Page",
+    "detail": "Landing Page made with HTML,CSS and JS with a Signup modal. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-6/index.html"
   }
 ]
