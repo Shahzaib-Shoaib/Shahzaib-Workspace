@@ -1,25 +1,25 @@
 [
   {
     "imgClass": " oddImg ",
-    "imgSrc": "./Captures/Cinema-Landing-Page.png",
+    "imgSrc": "./Captures/Jobs.png",
     "detailsClass": "oddDetails",
-    "name": "Cinema Landing Page",
-    "detail": "Cinema Landing Page made with HTML,Tailwind CSS and JS. A project from Tailwind Labs.    ",
-    "linkUrl": "https://fester-924622-cinema-landing-page.netlify.app/"
+    "name": "Jobs Page",
+    "detail": "Jobs Page made with HTML,CSS,JS and JSON. A project from Clever Programmer 5 day Challenge.",
+    "linkUrl": "../My-Projects/Project-Jobs"
   },
   {
     "imgClass": "evenImg",
-    "imgSrc": "./Captures/Seat-Selector.png",
+    "imgSrc": "./Captures/Fester-Baker.png",
     "detailsClass": "evenDetails small-12 medium-5 medium-offset-1 columns",
-    "name": "Seat Selector",
-    "detail": "A Seat Selector made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
-    "linkUrl": "../Axiom-Module-A/Project-2/index.html"
+    "name": "Fester's Baker",
+    "detail": "Bakery Page made with HTML and CSS. A project from Clever Programmer 5 day Challenge,Starbucks Clone",
+    "linkUrl": "../My-Projects/Project-Bakery"
   },
   {
     "imgClass": " oddImg ",
-    "imgSrc": "./Captures/HTML-Form.png",
+    "imgSrc": "./Captures/Tic-Tac-Toe.png",
     "detailsClass": "oddDetails",
-    "name": "Zitiiiiiiiiiiii Form",
+    "name": "Tic Tac Toe",
     "detail": "Simple HTML,CSS Signup form with JS Validation. A project from Axiom FSD Module-A.",
     "linkUrl": "../Axiom-Module-A/Project-1/index.html"
   },
