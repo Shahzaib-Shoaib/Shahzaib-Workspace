@@ -46,5 +46,77 @@
     "name": " Landing Page",
     "detail": "Landing Page made with HTML,CSS and JS with a Signup modal. A project from Axiom FSD Module-A.",
     "linkUrl": "../Axiom-Module-A/Project-6/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Hangman.png",
+    "detailsClass": "oddDetails",
+    "name": "Classic Hangman Game",
+    "detail": "Classic Hangman Game made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-7/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Meal-Generator.png",
+    "detailsClass": "evenDetails",
+    "name": " Meal Generator",
+    "detail": "Meal Generator made with HTML,CSS,JS and API. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-8/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Expense-Tracker.png",
+    "detailsClass": "oddDetails",
+    "name": "Expense Tracker",
+    "detail": "Expense Tracker made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-9/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Music-Player.png",
+    "detailsClass": "evenDetails",
+    "name": "Music Player",
+    "detail": "Music Player made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-10/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Infinite-Scrolling-App.png",
+    "detailsClass": "oddDetails",
+    "name": "Infinite Scrolling App",
+    "detail": "Infinite Scrolling App made with HTML,CSS,JS and API. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-11/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Typing-Game.png",
+    "detailsClass": "evenDetails",
+    "name": "Typing Game",
+    "detail": "Typing Game made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-12/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Memory-Cards.png",
+    "detailsClass": "oddDetails",
+    "name": "Memory Card",
+    "detail": "Memory Card Game made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-13/index.html"
+  },
+  {
+    "imgClass": "evenImg",
+    "imgSrc": "./Captures/Web-Speech.png",
+    "detailsClass": "evenDetails",
+    "name": "Web Speech",
+    "detail": "Web to speech made with HTML,CSS and JS. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-14/index.html"
+  },
+  {
+    "imgClass": " oddImg ",
+    "imgSrc": "./Captures/Search-For-Lyrics.png",
+    "detailsClass": "oddDetails",
+    "name": "Lyrics Finder",
+    "detail": "Lyrics Finder made with HTML,CSS,JS and API. A project from Axiom FSD Module-A.",
+    "linkUrl": "../Axiom-Module-A/Project-15/index.html"
   }
 ]
