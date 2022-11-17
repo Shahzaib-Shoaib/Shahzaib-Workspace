@@ -19,9 +19,10 @@ function getWebsites() {
                       <div class="details details-ftm">
                           <h3>${website.name}</h3>
                           <p class="platform">Web</p>
-                          <p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+                          <p class="icons"><i class="fa-solid fa-desktop"></i><i class="fa-solid fa-tablet-screen-button"></i><i class="fa-solid fa-mobile-screen"></i></p>
                           <p>${website.detail}</p>
                           <a class="my-button" href=${website.linkUrl}>Visit Website</a>
+                          
                       </div>
                   </div>
               </div>
@@ -30,7 +31,8 @@ function getWebsites() {
     websitesContainer.innerHTML = websitesHTML;
   }
   
-  
+  //   <p class="icons"><i class="fi-monitor"></i><i class="fa-solid fa-desktop"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+
   // when the application is loaded
   getWebsites().then((data) => {
     showWebsites(data);
