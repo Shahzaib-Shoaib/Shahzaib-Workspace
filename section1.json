@@ -4,9 +4,9 @@
     "imgClass": " oddImg ",
     "imgSrc": "./Captures/artistro-clone.png",
     "detailsClass": "oddDetails",
-    "name": "Artistro Clone",
-    "detail": "Artistro Clone made with Next.JS, Tailwind CSS and Shopify Partners.",
-    "linkUrl": "https://artistro-clone-924622.vercel.app/"
+    "name": "Paintigo",
+    "detail": "Paintigo Website made with Next.JS, Tailwind CSS and Shopify Partners.",
+    "linkUrl": "https://paintigo.vercel.app/"
   },
   {
     "imgClass": "evenImg",
