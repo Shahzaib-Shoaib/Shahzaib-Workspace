@@ -19,3 +19,8 @@
     [submodule "developerFolio"] 
   path = developerFolio
   url = https://github.com/Shahzaib-Shoaib/developerFolio.git
+
+  
+    [submodule "paintigo-website"] 
+  path = paintigo-website
+  url = https://github.com/Shahzaib-Shoaib/paintigo-website.git
