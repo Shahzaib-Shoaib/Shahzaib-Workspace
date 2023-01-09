@@ -1,4 +1,3 @@
-
 [
   {
     "imgClass": " oddImg ",
@@ -6,7 +5,7 @@
     "detailsClass": "oddDetails",
     "name": "Paintigo",
     "detail": "Paintigo Website made with Next.JS, Tailwind CSS and Shopify Partners.",
-    "linkUrl": "https://paintigo.vercel.app/"
+    "linkUrl": "https://paintigo-924622.vercel.app/"
   },
   {
     "imgClass": "evenImg",
@@ -24,7 +23,7 @@
     "detail": "Modern Ecommerce Project made with Next.JS, Tailwind CSS and Shopify Partners. A project idea from BuildNextShop Crash Course.",
     "linkUrl": "https://fester-924622.vercel.app/"
   },
-  
+
   {
     "imgClass": "evenImg ",
     "imgSrc": "./Captures/Meetups-Page.png",
@@ -49,5 +48,4 @@
     "detail": "Cinema Landing Page made with HTML,Tailwind CSS and JS. A project from Tailwind Labs.    ",
     "linkUrl": "https://fester-924622-cinema-landing-page.netlify.app/"
   }
- 
 ]
