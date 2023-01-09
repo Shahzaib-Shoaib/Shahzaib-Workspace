@@ -14,3 +14,8 @@
     [submodule "React-JS-Project"] 
   path = React-JS-Project
   url = https://github.com/Shahzaib-Shoaib/React-JS-Project.git
+
+  
+    [submodule "developerFolio"] 
+  path = developerFolio
+  url = https://github.com/Shahzaib-Shoaib/developerFolio.git
