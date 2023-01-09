@@ -5,3 +5,7 @@
   [submodule "FrontEnd-Mentor-Challenges"] 
   path = FrontEnd-Mentor-Challenges
   url = https://github.com/Shahzaib-Shoaib/FrontEnd-Mentor-Challenges.git
+
+    [submodule "Next-JS-Projects"] 
+  path = Next-JS-Projects
+  url = https://github.com/Shahzaib-Shoaib/Next-JS-Projects.git
