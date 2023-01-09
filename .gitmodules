@@ -1,0 +1,7 @@
+[submodule "Axiom-Module-A"] 
+  path = Axiom-Module-A
+  url = https://github.com/Shahzaib-Shoaib/Axiom-Module-A.git
+
+  [submodule "FrontEnd-Mentor-Challenges"] 
+  path = FrontEnd-Mentor-Challenges
+  url = https://github.com/Shahzaib-Shoaib/FrontEnd-Mentor-Challenges.git
