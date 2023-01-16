@@ -5,7 +5,7 @@
     "detailsClass": "oddDetails",
     "name": "Jobs Page",
     "detail": "Jobs Page made with HTML,CSS,JS and JSON. A project from Clever Programmer 5 day Challenge.",
-    "linkUrl": "../My-Projects/Project-Jobs"
+    "linkUrl": "../My-Projects/Project-Jobs/index.html"
   },
   {
     "imgClass": "evenImg",
@@ -13,7 +13,7 @@
     "detailsClass": "evenDetails",
     "name": "Fester's Baker",
     "detail": "Bakery Page made with HTML and CSS. A project from Clever Programmer 5 day Challenge,Starbucks Clone",
-    "linkUrl": "../My-Projects/Bakery-Shop"
+    "linkUrl": "../My-Projects/Bakery-Shop/index.html"
   },
   {
     "imgClass": " oddImg ",
@@ -21,7 +21,7 @@
     "detailsClass": "oddDetails",
     "name": "Tic Tac Toe",
     "detail": "Tic-Tac-Toe Game made with HTML,CSS and JS. A project from Clever Programmer 5 day Challenge.",
-    "linkUrl": "../My-Projects/Project-TicTacToe"
+    "linkUrl": "../My-Projects/Project-TicTacToe/index.html"
   },
   {
     "imgClass": " evenImg ",
@@ -29,6 +29,6 @@
     "detailsClass": "evenDetails",
     "name": "Shoe Store",
     "detail": "A creative idea of me.",
-    "linkUrl": "../My-Projects/Project-Shoe-Shop"
+    "linkUrl": "../My-Projects/Project-Shoe-Shop/index.html"
   }
 ]
