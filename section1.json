@@ -1,7 +1,7 @@
 [
   {
     "imgClass": " oddImg ",
-    "imgSrc": "./Captures/Paintigo.png",
+    "imgSrc": "./Captures/paintigo.png",
     "detailsClass": "oddDetails",
     "name": "Paintigo",
     "detail": "Paintigo Website made with Next.JS, Tailwind CSS and Shopify Partners.",
