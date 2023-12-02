@@ -1,0 +1,18 @@
+{
+  "label-email": "E-mail",
+  "label-password": "Mot de passe",
+  "label-remember-me": "Souviens-toi de moi",
+  "placeholder-email-subscribe": "Ecrivez votre email ici",
+  "label-name-required": "Votre nom (obligatoire)",
+  "label-email-required": "Votre email (obligatoire)",
+  "label-subject": "Sujet",
+  "label-message": "Message",
+  "placeholder-name": "Entrez votre nom",
+  "placeholder-email": "Entrez votre email",
+  "placeholder-subject": "Entrez votre sujet",
+  "placeholder-message": "Écrivez votre message ici",
+  "name-subject": "Votre sujet est obligatoire",
+  "name-required": "Le nom est requis",
+  "email-required": "E-mail requis",
+  "email-error": "Veuillez fournir une adresse e-mail valide"
+}

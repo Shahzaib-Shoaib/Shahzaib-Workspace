@@ -1,0 +1,12 @@
+{
+  "increment": "Increment",
+  "decrement": "Decrement",
+  "footer": {
+    "widget_title_social": "Social",
+    "widget_title_contact": "Contact",
+    "widget_title_about": "About",
+    "widget_title_customer_care": "Customer Care",
+    "widget_title_our_information": "Our Information",
+    "widget_title_our_stores": "Our Stores"
+  }
+}
